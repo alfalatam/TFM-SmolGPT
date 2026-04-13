@@ -37,9 +37,8 @@ The training pipeline follows these steps:
 
 1. Raw text dataset (`.txt`)
 2. Tokenizer training (SentencePiece)
-3. Tokenization into `.bin` format 
-4. Model training
-5. Inference
+3. Model training
+4. Inference
 
 
 **Requirements**:
