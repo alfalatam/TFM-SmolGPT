@@ -129,18 +129,19 @@ Validation Loss - `1.0491`
 
 ### Example 1
 ```text
-Prompt: What are the key characteristics of the RGB (Red, Green, Blue) color model?
+Prompt: In computer vision, what is the RGB (Red, Green, Blue) color space?
 
 Output:
-The RGB color model is a fundamental system used to represent colors digitally. It leverages three primary components – red, green, and blue light – each capable of varying intensity. When combined, these intensities create millions of possible hues by stimulating different combinations of receptors within our eyes. This model finds widespread use in digital imaging, such as cameras and displays, where images are captured and displayed using this specific combination of red, green, and blue signals.
+In computer vision, the system of representing colors using three primary components: red, green, and blue light intensities. Each component corresponds to a specific wavelength within the visible spectrum, with each pixel's intensity representing the strength of that particular wavelength. This system allows computers to represent and manipulate images by combining these individual wavelengths into different shades and hues. A common application of this model is in digital cameras, where RGB sensors capture the varying amounts of red, green, and blue light from the scene to create a visual representation on a screen or storage device.
+
 
 ```
 
 ```
-Prompt: Can you explain what is Otsu’s method?
+Prompt: what is the main idea behind Otsu’s thresholding method?
 
 Output:
-Otsu's method is an algorithm used in image segmentation to automatically determine optimal binarization thresholds for images.  The core principle involves finding the threshold that maximizes the difference between the intensities of foreground and background pixels within the image. This is achieved by iteratively adjusting the threshold until it finds a point where the cumulative distribution function of pixel intensities reaches its peak. For instance, this technique can be applied in medical imaging to segment tumors from healthy tissue based on their distinct intensity characteristics.
+Answer: Otsu's thresholding method is an image segmentation technique that aims to automatically determine the optimal threshold value for dividing the image into two distinct regions based on their pixel intensities. The core principle of this method lies in finding the threshold that minimizes the variance within each region after applying it. This means maximizing the difference between the intensity values of foreground and background pixels while minimizing the overlap between them. For instance, consider medical imaging where Otsu's threshold can be used to segment tumors from healthy tissue by identifying areas with higher contrast..
 
 ```
 
