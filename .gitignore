@@ -15,8 +15,6 @@ src/smolgpt_computer_vision.egg-info/PKG-INFO
 src/smolgpt_computer_vision.egg-info/requires.txt
 src/smolgpt_computer_vision.egg-info/SOURCES.txt
 src/smolgpt_computer_vision.egg-info/top_level.txt
-
-*.py
 tests/test.json
 out/Experimentos
 *.pt										 
