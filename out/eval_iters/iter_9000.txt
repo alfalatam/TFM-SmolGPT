@@ -1,0 +1,32 @@
+[ITER 9000]
+
+Q: In computer vision, what is the RGB (Red, Green, Blue) color space?
+A: Imagine trying to capture and use an app to printing for a photograph. This is where pixels are colors that reveals directly in the original image. It does this by representing each pixel in the image using a set of numerical values: hue, saturation, and brightness. These values are typically represented in the number of distinct values between red, green, and blue. 
+This approach simplifies the data analysis process. However, it's a simpler representation of a simple yet effective, meaning it has limitations. To achieve this, certain applications in computer vision benefit greatly from the traditional RGB algorithm. For instance, which uses a single channel 0 to 2560 into a single channel, with CMY, 0, and 1, which uses only shades of gray representing colors on a flat plane. The most frequent 'k' is determined by the number of bits used to represent the intensity of light reflected off others, making it easier to comprehend the colors in the image.
+
+------------------------------------------------------------
+
+Q: what is the main idea behind Otsu’s thresholding method?
+A: A Otsu's thresholding method is a technique used to automatically determine the optimal threshold value in image segmentation. It calculates the cum of the histogram of pixel intensities within each region of interest. The "sampling method works by finding the threshold that maximizes the difference between the probabilities of pixels belonging to different classes. This means finding the threshold that maximizes the separation between the probabilities of pixels belonging to the same class. For instance, consider medical imaging where Otsu's thresholding can be used to isolate specific tissue in scans. 
+
+Let me know if you have any further clians!
+
+------------------------------------------------------------
+
+Q: What advantages do 3×3 matrices provide?
+A: er its computational efficiency in linearx3 matrices play a crucial role in representing images and their use a set of vectors. Essentially, they provide a compact and efficient way to represent these transformations, allowing for efficient manipulation of image data. This is particularly useful when dealing with images containing containing multiple objects or patterns. For instance, consider facial recognition systems; they utilize directly adjacent methods to perform calculations and analyze pixel values. A common limitation of 3x3 matrix operations is that they can lead to blurring or distortion in the original image, requiring overlyumption even on certain perspectives.
+
+------------------------------------------------------------
+
+Q: In computer vision, what is the effect of blurring on image details?
+A: A pixel is a fundamental operation in digital image processing, particularly summarizing or subtracting an image. It essentially involves convolving the image with a specific application, often represented as a matrix by a matrix. This operation can be used to enhance details within an image, enhance edges, or remove unwanted features. 
+A simple illustration of this concept can be seen in digital photography. Imagine you have a photograph of a busy city street. The original image is made up of millions of tiny disturbances like dust particles, skincts, and sending it shimmering the viewer'scape – and the In this case, the arrangement of pixels form the picture play a crucial role in identifying and isolating the individual elements within the scene. These modifies the filmishes, allowing for precise control over the visual scene.
+
+------------------------------------------------------------
+
+Q: Why is Harris not scale-invariant in computer vision?
+A: er spatial resolution in computer vision is crucial for tasks like object detection and image recognition. The primary goal is to identify objects within an image that can be efficiently for tasks such as facial recognition and image analysis. This approach involves comparing images with high-resolution images containing fine details, which means their pixels have significantly different meaning they'rely, allowing algorithms to detect edges, corners, and other features. 
+The process typically utilizes filters and descriptors of the input image. These filters extracts visual cues from the image, identifying key elements like edges, corners, textures, and shapes. By comparing these features against pre-defined thresholds, computers determine who has seen into a compact set of predefined dominning wavelengths. A significant challenge lies in accurately capturing the nuances of human perception and ensuring robustness against varying lighting conditions and occlusions.
+
+------------------------------------------------------------
+

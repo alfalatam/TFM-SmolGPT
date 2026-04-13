@@ -1,0 +1,29 @@
+[ITER 9500]
+
+Q: In computer vision, what is the RGB (Red, Green, Blue) color space?
+A: In computer vision, the way an image is captured by a camera that captures its visual information. This involves assigning a numerical representation of the pixels within an image based on their relative position and orientation. The resulting data is then used in various ways to create a digital image that captures the scene's content.
+
+------------------------------------------------------------
+
+Q: what is the main idea behind Otsu’s thresholding method?
+A: A Otsu's thresholding method is a technique used to automatically determine the optimal threshold value in image segmentation. It calculates the cum of pixel intensities within an image where pixels are classified as either foreground or background. This method aims to isolate objects of interest from their background by analyzing pixel intensity.
+
+------------------------------------------------------------
+
+Q: What advantages do 3×3 matrices provide?
+A: er its application lengthhesis and area to represent binary, typically denoted as 3x3, typically denoted as Gaussian functions or 13. This function provides a simple yet powerful approach to implementations in representing data with many neural networks. The architecture of a linear algebra is mathematog employed to divide the signal into a higher dimensional space where linear approximation can be effectively compared to the original . This approach enables efficient training and inference of complex datasets. However, the inherent simplicity and the 3x3 matrix can result in multiple parameter estimates for high frequency components, particularly when dealing with large numbers of non-linear data that may require more resources.
+
+------------------------------------------------------------
+
+Q: In computer vision, what is the effect of blurring on image details?
+A: A Specific detail in computer vision is a technique used to enhance the clarity and detail within an image. It achieves this by selectively boosting the contrast between adjacent pixels, making edges more prominent and reducing unwanted noise. This process can be achieved through various methods like applying Gaussian filters, which smooth out pixel values based on their surrounding pixels. The goal of edge detection is to isolate sharp transitions between different regions of different intensities, such as edges, textures, and even facial features. 
+A common misconception about image enhancement is that it simply amplifies the sharpness of edges. While it does significantly enhances the visibility of existing edges, it doesn't necessarily mean the actual result. The primary for achieving the most significant fine detail is to visual analysis. By focusing on high-frequency components, algorithms can better identify subtle details and subtle textures that might otherwise be obscured. For instance, in medical imaging, it can help differentiate between healthy tissue and cancerous cells, leading to more accurate diagnoses.
+
+------------------------------------------------------------
+
+Q: Why is Harris not scale-invariant in computer vision?
+A: er spatial resolution in computer vision is a technique used to detect edges by representing an image's intensity values. It aims to improve object detection and segmentation by focusing on significant changes in pixel values. This process helps identify patterns and boundaries within an image, which often appears as areas with significant changes in brightness. 
+The core idea behind this approach is to applying filters that emphasize specific aspects of the image. These kernels can be simple like finding sharp transitions between different textures or drastically changing light. For instance, Sobel operators, combined with other techniques like mean and standard deviation from analyze the gradient magnitude. However, a major challenge lies in accurately distinguishing true edges from noise. The choice of component directly impacts the results of these criteria. A poorly chosen scale can lead to inaccurate results, making accurate identification difficult.
+
+------------------------------------------------------------
+

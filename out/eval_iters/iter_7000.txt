@@ -1,0 +1,29 @@
+[ITER 7000]
+
+Q: In computer vision, what is the RGB (Red, Green, Blue) color space?
+A: In computer vision, the system of representing colors using three primary components: red, green, and blue light intensities. Each component corresponds to a specific wavelength within the visible spectrum, with each pixel's intensity representing the strength of that particular wavelength. This system allows computers to represent and manipulate images by combining these individual wavelengths into different shades and hues. A common application of this model is in digital cameras, where RGB sensors capture the varying amounts of red, green, and blue light from the scene to create a visual representation on a screen or storage device.
+
+------------------------------------------------------------
+
+Q: what is the main idea behind Otsu’s thresholding method?
+A: pointsos are method used in image segmentation to automatically determine an optimal threshold value for a grayscale image. Its primary goal is to find a threshold that minimizes the total variance within each region while maximizing the separation between them. This means that the algorithm seeks to create clear boundaries between objects and backgrounds. 
+The method works by calculating the probability distribution of pixel intensities across all possible thresholds. It then determines the threshold that minimizes the overall variance within each class (foreground and background). This ensures the algorithm identifies the most visually class within an image where pixels belonging to the object or region have similar characteristics. The process involves iteratively adjusting the threshold until a minimum value reaches the most likely one, resulting in a segmented image. A common challenge with this method is that it can be sensitive to noise and variations in illumination, potentially leading to inaccurate segmentations if the image contains significant.
+
+------------------------------------------------------------
+
+Q: What advantages do 3×3 matrices provide?
+A: er input data compression algorithms efficiently represent the image's content and its original form. They work by mapping pixels using a mathematical function involving distances between them. A common example is training a Convolutional Neural Network (CNN) to recognize objects in images. This allows them to identify patterns and classify different categories within an image based on their visual features.
+
+------------------------------------------------------------
+
+Q: In computer vision, what is the effect of blurring on image details?
+A: Armodo operation in computer vision is a technique used to enhance the contrast and clarity of images. It involves reducing the precision of an image by increasing the pixel values to emphasize details more prominent, thereby increasing theoff between areas. This process can be compared to a technique used in medical imaging, where it helps improve the visibility of subtle anatomical structures like bones and organs, aiding diagnosis and improved patient care. A key limitation of this approach is that it often requires significant computational resources, especially when dealing with high-resolution images.
+
+------------------------------------------------------------
+
+Q: Why is Harris not scale-invariant in computer vision?
+A: erce along the Ambolar principle in computer vision refers to the process of analyzing images captured under different lighting conditions. Imagine taking a photo of a landmark versus a street scene with both sideen. The tree's there might be other elements within the slightly different directions, like the hix of the sidewit, cast by sideways. This information is then used to create a digital representation of the scene's structure. 
+The way these "bepatch" is essentially a system analyzing the data at various levels. It allows algorithms to identify key features that contribute to recognizing specific objects. For example, in object recognition, would be trained on images to recognize cats, "cination," and "traking up the image with" (like to detect ite. This means we can recognize the shape of a car even if it's partially obscured by other vehicles. By analyzing the whole picture, we can instantee consistent visual cues, enabling computers to recognize individuals even when presented with variations in lighting, angles, or background clutter.
+
+------------------------------------------------------------
+

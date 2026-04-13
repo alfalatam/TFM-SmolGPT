@@ -1,0 +1,29 @@
+[ITER 6000]
+
+Q: In computer vision, what is the RGB (Red, Green, Blue) color space?
+A: In computer vision, the Hue, Saturation, and Intensity represents colors using three values: red, green, and blue light intensities. Each component ranges from 0 to 255, where higher values indicate brighter hues. This representation in RGB is crucial for tasks like object recognition because it provides a way to represent colors using grayscale values. For instance, imagine you're building a system to identify different types of cliture in an image. By adjusting the intensity of each color component, you can control the intensity of the hue of the resulting image.
+
+------------------------------------------------------------
+
+Q: what is the main idea behind Otsu’s thresholding method?
+A: Anch thresholding method is an image segmentation technique that aims aims to automatically determine the optimal threshold value for dividing an image into distinct regions based on their pixel intensities. The goal is to find a threshold that separates pixels from their intensity values. 
+This method operates by calculating the probability distribution of pixel intensities across all pixels in the image. The algorithm iteratively adjusts the threshold until all possible match is achieved. This means identifies areas with similar intensities while minimizing transitions between them, effectively separating those above the separation between them. A common challenge associated with this approach is that it can be computationally intensive and sensitive to noise, especially when dealing with complex images containing numerous features.
+
+------------------------------------------------------------
+
+Q: What advantages do 3×3 matrices provide?
+A: er field of image processing and data analysis in computer vision, including 3D CNNs and sequence-struct. It decomposes a spatial structure that allows it to represent spatial information. This means each pixel's position and intensity based on its surrounding pixels, creating a 3D representation of the entire scene. The spatial domain of the input image, including its furniture and height, determines the extent of the image's shape, and the evolutionary dimensions. The underlying mechanism required to represent these pixel values accurately, enabling accurate analysis and processing of images, particularly in applications like medical imaging and CT scans. For example, 3D spectral analysis can be used to create detailed anatomical s of soft tissues, aiding in diagnosis and treatment planning.
+
+------------------------------------------------------------
+
+Q: In computer vision, what is the effect of blurring on image details?
+A: olund U allow for these distortions in computer vision applications like image resizing or upscaling, aiming to create a more concernable and informative. This is particularly beneficial when dealing with images that exhibit blurry details or distortions. The goal is to enhance the resolution of an image by adjusting its pixel values based on a defined neighborhood size. For instance, a photograph taken at sunrunning, increasing the resolution can be used to enlarge the clarity and sharpness of the frame, making it easier to identify subtle features like faces.
+
+------------------------------------------------------------
+
+Q: Why is Harris not scale-invariant in computer vision?
+A: olar S S S SurSSD (SSS) is a popular object detection method for 3D that captures distinctive objects within an image are used to detect a match Traditional region without being computationally expensive. It stands out because it uses a smaller set of candidate points, which are computationally expensive. This process involves calculating the second derivative of the pixel intensity around the keypoint, effectively creating a robust estimation. The algorithm starts by identifying potential corners based on the second-order derivatives of the image intensity. Then, it identifies potential corners by finding areas where the gradient magnitude and orientation of the gradient direction at these direction, significantly reduces the cost of pixels. 
+One common misconception about the SSD is that it's solely designed to "low an image. While the algorithm does considers identifying the presence of shadows, it also accounting for variations in lighting conditions, perspective, and object size. These challenges arise because due to the presence of noise in real-world objects, which can lead to false positives or missed detections. For instance, in self-driving cars, SNR systems are crucial for detecting lane markings and obstacles, enabling the vehicle to navigate safely.
+
+------------------------------------------------------------
+

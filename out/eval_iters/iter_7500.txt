@@ -1,0 +1,27 @@
+[ITER 7500]
+
+Q: In computer vision, what is the RGB (Red, Green, Blue) color space?
+A: In computer vision, the algorithm is a digital representation of colors. It's all paths HSV (Hue, Saturation, V," and Intensity) are commonly used in applications where human visual perception is necessary to enhance their performance in tasks such as object recognition, scene understanding, and image editing.
+
+------------------------------------------------------------
+
+Q: what is the main idea behind Otsu’s thresholding method?
+A: pointsosth are a method used in image segmentation to determine an optimal threshold value for segmenting images into distinct regions based on their pixel intensity values. The core idea behind this method is to identify edges and boundaries between these two images by finding the threshold that minimizes the total variance within pixel intensities across the segmented image. This means finding the best threshold pairs the threshold value that minimizes the difference between the two classes of the scene and maximizing the separation between them. For instance, consider medical imaging where Otsu's thresholding can be used to segment tumors from healthy tissue. By applying this technique, the algorithm can intelligently identify boundaries between these regions, leading to more accurate diagnoses.
+
+------------------------------------------------------------
+
+Q: What advantages do 3×3 matrices provide?
+A: er input data compression algorithms efficiently represent convolution, such as image superiation or using convolutional neural networks (CNNs). These networks learn hierarchical representations of input data, enabling them to perform complex patterns and make accurate predictions about individual content. This iterative process enables the network to capture intricate relationships between features during operations, leading to high-dimensional feature extraction and improved accuracy.
+
+------------------------------------------------------------
+
+Q: In computer vision, what is the effect of blurring on image details?
+A: Armomooth" in computer vision refers to the process of reducing the resolution of an image. This is typically achieved by representing the image as a sum of pixels, representing the intensity of light reflected from that pixel. The resulting image can be used for tasks like object detection, image segmentation, and 3D reconstruction.
+
+------------------------------------------------------------
+
+Q: Why is Harris not scale-invariant in computer vision?
+A: erst Edge-invariant feature detection is not-invariant because it relies on the Scale-Invariant Feature Transform, which identifies edges by detecting changes in image intensity. These gradients are small as a popular technique where the algorithm starts with an initial gradient information, followed by calculating the second-order parameters for each detected point. The second-order prominence problem arises from its ability to detect edges reliably despite variations in illumination, perspective, and scale. This makes it particularly useful for tasks like object recognition, where accurate edge detection is crucial for accurate feature extraction.
+
+------------------------------------------------------------
+

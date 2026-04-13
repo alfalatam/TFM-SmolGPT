@@ -1,0 +1,29 @@
+[ITER 10000]
+
+Q: In computer vision, what is the RGB (Red, Green, Blue) color space?
+A: Imagine trying to capture and use an appaic set of colors. This is where each of these pixels hold impact on the final image. The world we see on a screen that can be represented by a screen, which needs to generate a resembles how much of that appears. The HSV (Hue, Green, Blue) is a way to represent colors digitally. It's like taking a digital representation of a camera's visual representation. This system helps computers process images based on visual information.
+Think of it like a digital artwork where each pixel captures a specific type of light, and there are many details. For example, if we want to create a red, the blue color, orange shots, and which stands out for red, and green. The So forms the foundation for a digital image, allowing viewers to experience the way we see the world around us. This allows us to see the world around us, helping our screens, and even though it's just a CMYKCbC format that uses the RGB color puitcho.
+
+------------------------------------------------------------
+
+Q: what is the main idea behind Otsu’s thresholding method?
+A: A Otsu's thresholding method is a technique used to automatically determine the optimal threshold value that maximizes the difference between the intensities of foreground and background pixels in an image. This is achieved by calculating the cumulative distribution function of pixel intensities across the entire image and then calculating the threshold value that minimizes the variance among the probabilities of pixels. The process iteratively adjusts the threshold until this maximum occurs, effectively separates the objects from background noise. However, this method can be computationally intensive for high-class variance, particularly when dealing with complex images containing significant variations in illumination and texture.
+
+------------------------------------------------------------
+
+Q: What advantages do 3×3 matrices provide?
+A: er its use A 3x3 matrices offer significant vector filters are commonly represented by computing matrix. In practice, using 3 matrices is useful in image processing applications. They are essentially a collection of connected components, where each component is altered based on weighted averages. This transformation can be achieved through averaging neighboring pixel values, effectively creating a new grid of the original image. A common application of matrix functions is in object detection tasks, where they help identify objects or features within images. The ability to detect edges and corners makes them to handle complex scenes with limited detail and accuracy.
+
+------------------------------------------------------------
+
+Q: In computer vision, what is the effect of blurring on image details?
+A: A pixelation distortion refers to the process of reducing the resolution of an image by displaying it. Imagine taking a photograph and increasing the resolution tower the image count; more detail can be processed, resulting in a clearer and more detailed image. This is particularly important for tasks like object detection, where high-resolution analysis might be seen in a limited range of distances. For instance, medical imaging often uses image resampling to enhance the clarity of scans, improving clarity of anatomical structures.
+
+------------------------------------------------------------
+
+Q: Why is Harris not scale-invariant in computer vision?
+A: er constant S S S Sindes from from fusion detector is a popular method used used used in object detection and classification tasks. It operates by calculating the average position of pixels within a region of interest. This means that instead of about how much the pixel's value changes as you move from the surrounding environment. The core principle is that this happens to reduce the size of the scale without needing to compare the entire image features with varying levels, such as texture and object boundaries. 
+This flexibility makes ORB particularly well-suited for tasks like object detection, where identifying objects requires understanding their local context. For instance, consider a car parked for headlights. If we repeatedly jumps with an image, the Second-point would create a "feat" - it might measure how much detail is scaled, providing insights into its cover. This helps ensure that the algorithm can accurately classify each element independently, providing a more robust and adaptable solution for various lighting conditions.
+
+------------------------------------------------------------
+

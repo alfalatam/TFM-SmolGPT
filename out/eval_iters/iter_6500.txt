@@ -1,0 +1,30 @@
+[ITER 6500]
+
+Q: In computer vision, what is the RGB (Red, Green, Blue) color space?
+A: Imagine trying to describe the apple of a sunset. The most common color space is an orlight reflecting casting, depending on the angle of the light source and the object's surface. RGB, on the other hand, lies in how we perceive the world through, assuming a human eye has a specific range of wavelengths. Each pixel captures light emits the object's surface, determining its brightness based on the intensity of its interaction with red, green, and blue. This allows computers to process images, analyze, and combine different components. 
+For instance, a digital image might only be viewing a brick with a high energy (connolor cells). This difference in color scheme becomes possible through white role. We can take the varying intensities of these lights, which are combined to create a more pron representation of the colors we see on our screens. In photography, for instance, cameras capture images by capturing the intensity of light, creating depth and dynamic color accuracy.
+
+------------------------------------------------------------
+
+Q: what is the main idea behind Otsu’s thresholding method?
+A: points thresholding method results in image segmentation by employing a single threshold value that separates pixels into foreground and background regions. It's thresholding process aims to create distinct regions within an image with further analysis. The primary goal is to automatically determine the threshold by identifying pixels belonging to the foreground from background pixels. 
+This process uses pixel-class thresholds, which represent areas with significant intensity values exceeding foreground against the background. This creates a clear separation between the object and background. However, finding the optimal threshold can be challenging. The ambiguity area with varying lighting conditions and complex object conditions, as enhancing the overall contrast between different areas might fail.
+
+------------------------------------------------------------
+
+Q: What advantages do 3×3 matrices provide?
+A: change In computer vision, image processing techniques can be restricted on images. Applying a 3x3 matrix is a rectangular kernel or mathematically, which uses a rectangular grid of numbers. These functions capture information about the shape being detected in the image, but they can alter the relative positions of objects within a scene. This flexibility allows for more complex feature extraction and manipulation of object features.
+
+------------------------------------------------------------
+
+Q: In computer vision, what is the effect of blurring on image details?
+A: \ like noise reduction in computer vision refers to techniques used to enhance images by minimizing unwanted variations in pixel values. Imagine taking a photograph of a sunset where sharp lines and edges are subtle. Imagine capturing a landscape; the original image wouldn't receive't show without distorting details. The result is a favorite version of the original image with clearer edges. This highlights akin to adding extraneous information that distract shapes and contribute significantly to the overall image clarity. A common example is using these techniques in medical imaging, where high-resolution images can help doctors diagnose conditions accurately.
+
+------------------------------------------------------------
+
+Q: Why is Harris not scale-invariant in computer vision?
+A: prominent and scales are captured during image processing. Imagine you're looking at a picture of a building, but it's difficult to distinguish it from different perspectives. The send's head-on-on childistance to small, a tiny ruler that needs to be precisely matched despite the overall scene. This is where the focus comes in. It's the idea of finding the right balance between most relevant values and corresponding features. Think of a test, if we just drawing a small table scalely; we need to apply a technique called "distortion-space" - the entire structure will compare the dimensions of our one taken at another location, with other relevant values. 
+This principle applies to tasks like object detection, image segmentation, and noise. Imagine trying to identify a specific object in a crowded room. Without a field, the car captured by the car's position, and its surroundings might capture its shape and its location relative to the surrounding environment. This is similar to how algorithms work by applying filters that operate independently beforehap features like SIFT, which involve complex calculations based on the underlying structure of the scene. The resulting output can then accurately determine the location and size of these objects within
+
+------------------------------------------------------------
+
