@@ -1,0 +1,25 @@
+__pycache__
+out/
+data/libros
+test/test - copia.json
+Colab Corpus Generator/token.txt
+test/test13SEasy.json
+test/test13Easy.json
+test/test13.json
+test/test10.json
+funcion-auxiliar-askMulti.py
+sample2.py
+test/test2.json
+.env
+src/smolgpt_computer_vision.egg-info/dependency_links.txt
+src/smolgpt_computer_vision.egg-info/PKG-INFO
+src/smolgpt_computer_vision.egg-info/requires.txt
+src/smolgpt_computer_vision.egg-info/SOURCES.txt
+src/smolgpt_computer_vision.egg-info/top_level.txt
+
+*.py
+tests/test.json
+out/Experimentos
+*.0
+*.pt										 
+out/drive-download-20260322T224327Z-3-001.zip
