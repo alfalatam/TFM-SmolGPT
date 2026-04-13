@@ -1,5 +1,4 @@
 __pycache__
-out/
 data/libros
 test/test - copia.json
 Colab Corpus Generator/token.txt
@@ -20,6 +19,5 @@ src/smolgpt_computer_vision.egg-info/top_level.txt
 *.py
 tests/test.json
 out/Experimentos
-*.0
 *.pt										 
 out/drive-download-20260322T224327Z-3-001.zip
