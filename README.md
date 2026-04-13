@@ -113,14 +113,14 @@ python -m smolgpt.tools ask
 
 ## Pre-trained Model Details 🔍
 
-The provided checkpoint was trained on the [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) dataset.
+The provided checkpoint was trained on a Question-Answer computer vision dataset.
 
 Architecture:
 - 4096-token vocabulary
 - 8 heads
 - 8-layer transformer
 - 512 embedding dimension
-- Trained on `~1.5 Billion Tokens` for around `18.5` hours
+- Trained on `~3 Million Tokens` for around `4` hours
 
 Validation Loss - `1.0491`
 <!-- [Loss Curve](assets/loss.png) -->
