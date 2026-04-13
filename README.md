@@ -101,7 +101,7 @@ tensorboard --logdir=out/logs
 3. **Generate Text**
 
 ```bash
-To start using the provided model it is necessary to uncompress it in out folder
+To start using the provided model it is necessary to uncompress it in `out` folder
 ```
 
 ```bash
