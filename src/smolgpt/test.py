@@ -100,7 +100,7 @@ def main():
         print(f"Q: {question['question']}")
         print(f"Correct answer: {corr_answer}")
         print(f"Prediction: {pred} || Top2 Prediction:{best2}|| Margin: {margin:.3f}")
-        print("Scores:", {k: f"{v:.3f}" for k, v in scores.items()}) 
+        print("Scores:", {key: f"{value:.3f}" for key, value in scores.items()}) 
         print("\n")
     total = len(questions)
     
