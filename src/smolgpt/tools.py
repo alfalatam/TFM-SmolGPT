@@ -8,6 +8,7 @@ from smolgpt.export_vocabulary import main as export_vocabulary_main
 from smolgpt.script_tokenizer import main as script_tokenizer_main
 #from smolgpt.evaluate import main as evaluate_main
 from smolgpt.preprocess import train_vocab_txt
+from smolgpt.test import main as test_main
 
 def ask():
     ask_main()
@@ -33,6 +34,8 @@ def script_tokenizer():
     
 # def evaluate():
     # evaluate_main()
+def test():
+    test_main()
 
 
 # =====================
@@ -98,6 +101,10 @@ def main():
         "script_tokenizer",
         help="Run the tokenizer script for the text file in the data folder is recommended to have only one but you can concatenate multiple ones"
     )
+    subparsers.add_parser(
+        "test",
+        help="Run a multiple choice test"
+    )   
 
     # subparsers.add_parser(
         # "evaluate",
@@ -124,6 +131,8 @@ def main():
         export_vocabulary()
     elif args.command == "script_tokenizer":
         script_tokenizer()
+    elif args.command == "test":
+        test()
 
  
 if __name__ == "__main__":

@@ -18,3 +18,4 @@ tests/test.json
 out/Experimentos
 *.pt										 
 out/drive-download-20260322T224327Z-3-001.zip
+out/ckpt_best_run.pt
