@@ -84,6 +84,9 @@ class QADataset(torch.utils.data.IterableDataset):
         # pasamos de los que no sean txt
             if not text.endswith(".txt"):
                 continue
+                
+            # separo el parafraseo para que no sobreajuste,tiene que tener para para
+            parafrased_corpus_text = "para" in text.lower()
 
             path =self.data_dir / text
             with open(path, "r", encoding="utf-8") as f:  
@@ -99,7 +102,8 @@ class QADataset(torch.utils.data.IterableDataset):
                 if len(b) > 2:
                     a = a + " " + " ".join(b[2:])
 
-                examples.append((q.strip(), a.strip()))
+                #examples.append((q.strip(), a.strip()))
+                examples.append((q.strip(), a.strip(), parafrased_corpus_text))
 
         if not examples:
             raise ValueError("No se encontraron ejemplos Q/A en laruta data/libros")
@@ -147,20 +151,38 @@ class QADataset(torch.utils.data.IterableDataset):
     # funcion aux para entrenar sobre todo o split
     def select_split(self,examples):
     
-        split_dataset =  getattr(self, "split_dataset", False)
+        #separo parafraseo del original
         
-        if not split_dataset:
-            if self.split in ["train","val"]:
-                return examples
-            raise ValueError(f"SPlit not supported : {self.split}")
+        corpus_original = []
+        parafraseos=[]
         
-        split_index = int(len(examples)* 0.9) #  % de corpus para train y val
+        for q,a, is_para in examples:
+            if not is_para:
+                corpus_original.append((q, a))
         
-        if self.split == "train":
-            return examples[:split_index]
-        if self.split == "val":
-            return examples[split_index:]
         
+        for q,a, is_para in examples:
+            if is_para:
+                parafraseos.append((q, a))
+                
+
+
+    
+        #split_dataset =  getattr(self, "split_dataset", True)
+        split_index = int(len(corpus_original) * 0.9) #  % de corpus para train y val
+
+        
+        # if not split_dataset:
+            # if self.split in ["train","val"]:
+                # return examples
+            # raise ValueError(f"SPlit not supported : {self.split}")
+        
+        
+        if self.split ==  "train": 
+            return corpus_original[:split_index]  + parafraseos 
+        if self.split == "val": 
+            return corpus_original[split_index:]  
+         
         raise ValueError(f"Split not supported : {self.split}")
         
         
