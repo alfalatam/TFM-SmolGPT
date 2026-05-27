@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "Which concept detects object boundaries in images?",
+    "A": "Blur",
+    "B": "Edges",
+    "C": "Pixels",
+    "D": "Colors",
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Which technique reduces image noise smoothly?",
+    "A": "Sharpen",
+    "B": "Resize",
+    "C": "Gaussian",
+    "D": "Threshold",
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "Which model is commonly used for image classification?",
+    "A": "Database",
+    "B": "Kernel",
+    "C": "Sensor",
+    "D": "CNN",
+    "answer": "D"
+  },
+  {
+    "id": 4,
+    "question": "Which process separates objects from background regions?",
+    "A": "Segmentation",
+    "B": "Tracking",
+    "C": "Encoding",
+    "D": "Calibration",
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "question": "Which metric measures overlap between bounding boxes?",
+    "A": "Recall",
+    "B": "IoU",
+    "C": "Entropy",
+    "D": "Variance",
+    "answer": "B"
+  },
+  {
+    "id": 6,
+    "question": "Which operation combines kernels with image regions?",
+    "A": "Pooling",
+    "B": "Padding",
+    "C": "Sampling",
+    "D": "Convolution",
+    "answer": "D"
+  },
+  {
+    "id": 7,
+    "question": "Which algorithm detects circular shapes in images?",
+    "A": "Watershed",
+    "B": "Optical",
+    "C": "Hough",
+    "D": "Median",
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "question": "Which concept represents the smallest image element?",
+    "A": "Tensor",
+    "B": "Feature",
+    "C": "Kernel",
+    "D": "Pixel",
+    "answer": "D"
+  },
+  {
+    "id": 9,
+    "question": "Which task assigns labels to every image pixel?",
+    "A": "Classification",
+    "B": "Segmentation",
+    "C": "Compression",
+    "D": "Registration",
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "Which method estimates motion between video frames?",
+    "A": "Histogram",
+    "B": "Optical",
+    "C": "Fourier",
+    "D": "Threshold",
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "question": "Which technique improves image contrast automatically?",
+    "A": "Equalization",
+    "B": "Calibration",
+    "C": "Augmentation",
+    "D": "Interpolation",
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "Which descriptor is widely used for feature matching?",
+    "A": "Pooling",
+    "B": "Masking",
+    "C": "SIFT",
+    "D": "Padding",
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "question": "Which process estimates distances using two cameras?",
+    "A": "Tracking",
+    "B": "Stereo",
+    "C": "Sharpening",
+    "D": "Encoding",
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "question": "Which layer reduces feature map dimensions in CNNs?",
+    "A": "Dropout",
+    "B": "Pooling",
+    "C": "Flatten",
+    "D": "Padding",
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "question": "Which task identifies objects inside an image?",
+    "A": "Registration",
+    "B": "Detection",
+    "C": "Normalization",
+    "D": "Sampling",
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "question": "Which function introduces nonlinearity into neural networks?",
+    "A": "Activation",
+    "B": "Encoding",
+    "C": "Scaling",
+    "D": "Cropping",
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "question": "Which process aligns multiple images geometrically?",
+    "A": "Denoising",
+    "B": "Tracking",
+    "C": "Registration",
+    "D": "Compression",
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "Which method converts images into binary regions?",
+    "A": "Augmentation",
+    "B": "Thresholding",
+    "C": "Calibration",
+    "D": "Encoding",
+    "answer": "B"
+  },
+  {
+    "id": 19,
+    "question": "Which metric evaluates correctly predicted positive samples?",
+    "A": "Precision",
+    "B": "Entropy",
+    "C": "Contrast",
+    "D": "Sampling",
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "question": "Which concept describes brightness values in an image?",
+    "A": "Texture",
+    "B": "Gradient",
+    "C": "Intensity",
+    "D": "Contour",
+    "answer": "C"
+  }
+]
