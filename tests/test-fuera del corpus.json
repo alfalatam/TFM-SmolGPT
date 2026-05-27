@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "question": "Can you explain the difference between image intensity and image luminance in computer vision?",
+    "A": "Image intensity refers to pixel brightness values, while luminance describes the perceived overall light energy",
+    "B": "Image intensity represents object depth, while luminance measures camera distance",
+    "C": "Image intensity only applies to RGB images, while luminance applies to grayscale images",
+    "D": "Image intensity measures image resolution, while luminance measures contrast",
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "Why is visual perception in humans considered non-linear?",
+    "A": "Because the human eye processes each pixel independently in a fixed sequence",
+    "B": "Because visual perception combines multiple contextual inputs instead of relying on strictly linear calculations",
+    "C": "Because humans can only perceive grayscale images linearly",
+    "D": "Because image sensors operate using binary thresholding",
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "How can illumination change image appearance without modifying object properties?",
+    "A": "Illumination changes how light interacts with objects, affecting brightness, contrast, and perceived color",
+    "B": "Illumination permanently changes the physical structure of objects",
+    "C": "Illumination only affects image resolution and compression",
+    "D": "Illumination removes shadows and reflections from all images",
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "question": "Can you explain the difference between reflectance and illumination in image formation?",
+    "A": "Reflectance describes camera exposure, while illumination defines image sharpness",
+    "B": "Reflectance measures object motion, while illumination measures pixel density",
+    "C": "Reflectance describes how objects reflect light, while illumination refers to the light sources affecting the scene",
+    "D": "Reflectance and illumination are identical concepts in computer vision",
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "Why is image acquisition commonly modeled using both illumination and reflectance?",
+    "A": "Because the final appearance of an image depends on both object reflectivity and lighting conditions",
+    "B": "Because illumination alone determines image content",
+    "C": "Because reflectance only affects grayscale images",
+    "D": "Because cameras cannot detect illumination changes",
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "What assumptions are typically made when modeling noise as additive?",
+    "A": "Noise is assumed to replace the original image entirely",
+    "B": "Noise is assumed to depend only on object shape",
+    "C": "Noise is assumed to be independent and added directly to the original signal",
+    "D": "Noise is assumed to affect only image colors",
+    "answer": "C"
+  },
+  {
+    "id": 7,
+    "question": "Can you explain the difference between signal-dependent and signal-independent noise?",
+    "A": "Signal-dependent noise is unrelated to image content, while signal-independent noise depends on object texture",
+    "B": "Signal-dependent noise is tied to the image signal, while signal-independent noise comes from unrelated random fluctuations",
+    "C": "Signal-dependent noise only appears in grayscale images",
+    "D": "Signal-independent noise is always caused by motion blur",
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "Why does sensor noise become stronger under low-light conditions?",
+    "A": "Because sensors capture too many photons in darkness",
+    "B": "Because image resolution decreases automatically at night",
+    "C": "Because sensors struggle to capture enough light, increasing amplification and quantization errors",
+    "D": "Because low-light images contain fewer pixels",
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "question": "How does noise propagation influence later image processing stages?",
+    "A": "Noise errors can spread and become amplified through later processing stages",
+    "B": "Noise propagation improves edge detection accuracy automatically",
+    "C": "Noise propagation only affects image compression",
+    "D": "Noise disappears after the first processing operation",
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "question": "Can you explain how spatial-domain and frequency-domain image analysis differ?",
+    "A": "Spatial-domain analysis examines pixel relationships directly, while frequency-domain analysis studies image frequency components",
+    "B": "Spatial-domain analysis only works for videos, while frequency-domain analysis only works for photographs",
+    "C": "Spatial-domain analysis measures brightness, while frequency-domain analysis measures depth",
+    "D": "Both methods analyze images in exactly the same way",
+    "answer": "A"
+  },
+   {
+    "id": 11,
+    "question": "Why are edges considered important features in computer vision?",
+    "A": "Because edges help identify object boundaries and structural changes in images",
+    "B": "Because edges increase image compression automatically",
+    "C": "Because edges remove noise from grayscale images",
+    "D": "Because edges only appear in synthetic images",
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "Can you explain why Gaussian filtering is commonly used before edge detection?",
+    "A": "Because Gaussian filtering increases image resolution",
+    "B": "Because Gaussian filtering smooths noise and reduces false edge responses",
+    "C": "Because Gaussian filtering converts images into binary format",
+    "D": "Because Gaussian filtering detects corners directly",
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "question": "How does thresholding simplify image segmentation?",
+    "A": "Thresholding separates pixels into groups based on intensity values",
+    "B": "Thresholding automatically restores blurred images",
+    "C": "Thresholding increases image contrast using color interpolation",
+    "D": "Thresholding removes geometric distortions from images",
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "question": "Why is histogram analysis useful in image processing?",
+    "A": "Because histograms store image coordinates for object tracking",
+    "B": "Because histograms describe the distribution of pixel intensity values",
+    "C": "Because histograms replace convolution operations",
+    "D": "Because histograms only work with RGB images",
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "question": "Can you explain the purpose of convolution in computer vision?",
+    "A": "Convolution combines local pixel information to extract useful image features",
+    "B": "Convolution changes image dimensions randomly",
+    "C": "Convolution only compresses image files",
+    "D": "Convolution converts grayscale images into RGB images",
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "question": "Why are corners useful features for image matching?",
+    "A": "Because corners usually contain distinctive intensity changes in multiple directions",
+    "B": "Because corners remove image noise automatically",
+    "C": "Because corners always correspond to object centers",
+    "D": "Because corners only appear in low-resolution images",
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "question": "How does motion blur affect image quality?",
+    "A": "Motion blur sharpens object boundaries during movement",
+    "B": "Motion blur increases image brightness automatically",
+    "C": "Motion blur spreads pixel information across neighboring regions, reducing detail clarity",
+    "D": "Motion blur only affects image colors",
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "Why is normalization useful in computer vision pipelines?",
+    "A": "Because normalization helps reduce variations between image intensity ranges",
+    "B": "Because normalization increases image resolution",
+    "C": "Because normalization removes all image noise",
+    "D": "Because normalization converts videos into static images",
+    "answer": "A"
+  },
+  {
+    "id": 19,
+    "question": "Can you explain the difference between grayscale and RGB images?",
+    "A": "Grayscale images store multiple depth channels, while RGB images store motion information",
+    "B": "Grayscale images represent intensity using one channel, while RGB images use separate red, green, and blue channels",
+    "C": "Grayscale images always contain more information than RGB images",
+    "D": "RGB images only work in frequency-domain analysis",
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Why are feature descriptors important in object recognition?",
+    "A": "Because feature descriptors summarize visual patterns in a way that allows image comparison",
+    "B": "Because feature descriptors permanently modify image content",
+    "C": "Because feature descriptors only detect image brightness",
+    "D": "Because feature descriptors replace segmentation algorithms completely",
+    "answer": "A"
+  },
+   {
+    "id": 21,
+    "question": "Why is image resizing commonly used in computer vision systems?",
+    "A": "Because resizing helps standardize image dimensions and reduce computational cost",
+    "B": "Because resizing automatically improves image sharpness",
+    "C": "Because resizing removes all background objects",
+    "D": "Because resizing converts grayscale images into RGB images",
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "question": "Can you explain why object detection is more difficult than image classification?",
+    "A": "Because object detection must identify both object categories and their locations",
+    "B": "Because object detection only works with grayscale images",
+    "C": "Because object detection ignores image content",
+    "D": "Because object detection does not require feature extraction",
+    "answer": "A"
+  },
+  {
+    "id": 23,
+    "question": "How does contrast influence visual information in images?",
+    "A": "Contrast determines how easily intensity differences and structures can be distinguished",
+    "B": "Contrast only changes image resolution",
+    "C": "Contrast removes geometric distortions from images",
+    "D": "Contrast only affects compressed video formats",
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "question": "Why are gradients useful in edge detection algorithms?",
+    "A": "Because gradients measure intensity changes between neighboring pixels",
+    "B": "Because gradients convert images into binary masks automatically",
+    "C": "Because gradients reduce image size during processing",
+    "D": "Because gradients only work in frequency-domain analysis",
+    "answer": "A"
+  },
+  {
+    "id": 25,
+    "question": "Can you explain the purpose of non-maximum suppression in edge detection?",
+    "A": "Non-maximum suppression thickens edges to improve segmentation",
+    "B": "Non-maximum suppression keeps only the strongest edge responses while removing weaker neighboring responses",
+    "C": "Non-maximum suppression converts RGB images into grayscale images",
+    "D": "Non-maximum suppression restores blurred images automatically",
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "question": "Why can shadows create difficulties in computer vision tasks?",
+    "A": "Because shadows may alter object appearance and introduce misleading intensity variations",
+    "B": "Because shadows permanently damage image sensors",
+    "C": "Because shadows increase image resolution unpredictably",
+    "D": "Because shadows remove texture information completely",
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "question": "How does a median filter reduce image noise?",
+    "A": "A median filter replaces each pixel using the median value of neighboring pixels",
+    "B": "A median filter increases image contrast automatically",
+    "C": "A median filter sharpens all image edges equally",
+    "D": "A median filter transforms images into the frequency domain",
+    "answer": "A"
+  },
+  {
+    "id": 28,
+    "question": "Why is data augmentation useful when training computer vision models?",
+    "A": "Because data augmentation increases dataset diversity and improves generalization",
+    "B": "Because data augmentation removes the need for labels",
+    "C": "Because data augmentation guarantees perfect accuracy",
+    "D": "Because data augmentation only changes image file formats",
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "question": "Can you explain how optical flow estimates motion in videos?",
+    "A": "Optical flow estimates motion by analyzing pixel intensity changes between consecutive frames",
+    "B": "Optical flow detects object colors using histogram equalization",
+    "C": "Optical flow converts videos into static grayscale images",
+    "D": "Optical flow measures image compression ratios",
+    "answer": "A"
+  },
+  {
+    "id": 30,
+    "question": "Why are convolutional neural networks effective in computer vision tasks?",
+    "A": "Because convolutional neural networks automatically learn hierarchical visual features from image data",
+    "B": "Because convolutional neural networks only process grayscale images",
+    "C": "Because convolutional neural networks replace all preprocessing operations",
+    "D": "Because convolutional neural networks directly store complete images in memory",
+    "answer": "A"
+  },
+    {
+    "id": 31,
+    "question": "Why is segmentation important in computer vision applications?",
+    "A": "Because segmentation separates meaningful image regions or objects for further analysis",
+    "B": "Because segmentation automatically improves image compression",
+    "C": "Because segmentation only works on grayscale images",
+    "D": "Because segmentation removes all image noise permanently",
+    "answer": "A"
+  },
+  {
+    "id": 32,
+    "question": "Can you explain why image sharpening enhances visual details?",
+    "A": "Because sharpening increases local intensity differences around edges",
+    "B": "Because sharpening reduces image resolution automatically",
+    "C": "Because sharpening removes all object textures",
+    "D": "Because sharpening only affects image brightness",
+    "answer": "A"
+  },
+  {
+    "id": 33,
+    "question": "How does downsampling affect image information?",
+    "A": "Downsampling reduces image size and may remove fine visual details",
+    "B": "Downsampling increases image contrast automatically",
+    "C": "Downsampling restores blurred image regions",
+    "D": "Downsampling only changes image color channels",
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "question": "Why can occlusion create difficulties in object tracking?",
+    "A": "Because occlusion may partially or completely hide tracked objects",
+    "B": "Because occlusion permanently changes image resolution",
+    "C": "Because occlusion removes all image motion",
+    "D": "Because occlusion only affects grayscale videos",
+    "answer": "A"
+  },
+  {
+    "id": 35,
+    "question": "Can you explain the role of feature extraction in computer vision?",
+    "A": "Feature extraction identifies useful visual patterns that simplify later analysis tasks",
+    "B": "Feature extraction only compresses image files",
+    "C": "Feature extraction converts videos into static images",
+    "D": "Feature extraction removes object boundaries from images",
+    "answer": "A"
+  },
+  {
+    "id": 36,
+    "question": "Why is camera calibration important in computer vision systems?",
+    "A": "Because calibration estimates camera parameters and reduces geometric distortions",
+    "B": "Because calibration automatically increases image resolution",
+    "C": "Because calibration removes all image noise",
+    "D": "Because calibration only affects image brightness",
+    "answer": "A"
+  },
+  {
+    "id": 37,
+    "question": "How does histogram equalization improve image visibility?",
+    "A": "Histogram equalization redistributes intensity values to enhance contrast",
+    "B": "Histogram equalization increases image size automatically",
+    "C": "Histogram equalization removes motion blur completely",
+    "D": "Histogram equalization only works for RGB images",
+    "answer": "A"
+  },
+  {
+    "id": 38,
+    "question": "Why are keypoints useful in image matching tasks?",
+    "A": "Because keypoints represent distinctive image locations that can be compared across images",
+    "B": "Because keypoints permanently modify image content",
+    "C": "Because keypoints only describe image brightness",
+    "D": "Because keypoints remove background objects automatically",
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "question": "Can you explain the difference between object detection and segmentation?",
+    "A": "Object detection locates objects with bounding regions, while segmentation assigns labels to individual pixels",
+    "B": "Object detection only works on videos, while segmentation only works on images",
+    "C": "Object detection measures brightness, while segmentation measures depth",
+    "D": "Object detection and segmentation are identical processes",
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "question": "Why can overexposure reduce image quality?",
+    "A": "Because overexposure causes bright regions to lose important visual information",
+    "B": "Because overexposure automatically sharpens edges",
+    "C": "Because overexposure removes image shadows completely",
+    "D": "Because overexposure only affects grayscale images",
+    "answer": "A"
+  },
+  {
+    "id": 41,
+    "question": "How does perspective distortion affect image interpretation?",
+    "A": "Perspective distortion changes the apparent shape and size of objects depending on viewpoint",
+    "B": "Perspective distortion permanently alters image colors",
+    "C": "Perspective distortion only affects compressed videos",
+    "D": "Perspective distortion removes texture information",
+    "answer": "A"
+  },
+  {
+    "id": 42,
+    "question": "Why are activation functions important in convolutional neural networks?",
+    "A": "Because activation functions introduce non-linear behavior into the network",
+    "B": "Because activation functions remove all image noise",
+    "C": "Because activation functions only increase image resolution",
+    "D": "Because activation functions convert RGB images into grayscale images",
+    "answer": "A"
+  },
+  {
+    "id": 43,
+    "question": "Can you explain how background subtraction detects moving objects?",
+    "A": "Background subtraction compares current frames with a background model to identify changes",
+    "B": "Background subtraction increases image brightness automatically",
+    "C": "Background subtraction removes all shadows permanently",
+    "D": "Background subtraction only works on still images",
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "question": "Why is scale invariance important in feature detection?",
+    "A": "Because scale invariance allows features to be recognized at different image sizes",
+    "B": "Because scale invariance permanently changes object colors",
+    "C": "Because scale invariance removes geometric distortions automatically",
+    "D": "Because scale invariance only applies to grayscale images",
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "question": "How does interpolation help during image resizing?",
+    "A": "Interpolation estimates new pixel values when image dimensions are changed",
+    "B": "Interpolation removes image noise completely",
+    "C": "Interpolation sharpens all image edges automatically",
+    "D": "Interpolation converts videos into binary masks",
+    "answer": "A"
+  },
+  {
+    "id": 46,
+    "question": "Why can reflections create problems in computer vision systems?",
+    "A": "Because reflections may introduce misleading visual patterns and false object appearances",
+    "B": "Because reflections permanently damage image sensors",
+    "C": "Because reflections remove all texture information",
+    "D": "Because reflections only affect infrared cameras",
+    "answer": "A"
+  },
+  {
+    "id": 47,
+    "question": "Can you explain the purpose of pooling layers in convolutional neural networks?",
+    "A": "Pooling layers reduce spatial dimensions while preserving important visual information",
+    "B": "Pooling layers increase image resolution automatically",
+    "C": "Pooling layers remove all image textures",
+    "D": "Pooling layers only convert grayscale images into RGB images",
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "question": "Why is temporal consistency important in video analysis?",
+    "A": "Because temporal consistency helps maintain stable interpretations across consecutive frames",
+    "B": "Because temporal consistency increases image sharpness automatically",
+    "C": "Because temporal consistency removes object motion",
+    "D": "Because temporal consistency only affects still images",
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "question": "How does depth estimation help scene understanding?",
+    "A": "Depth estimation provides information about object distances and spatial structure",
+    "B": "Depth estimation permanently changes image brightness",
+    "C": "Depth estimation only works with grayscale cameras",
+    "D": "Depth estimation removes image shadows automatically",
+    "answer": "A"
+  },
+  {
+    "id": 50,
+    "question": "Why is generalization important when training computer vision models?",
+    "A": "Because generalization allows models to perform well on previously unseen data",
+    "B": "Because generalization guarantees perfect training accuracy",
+    "C": "Because generalization removes the need for datasets",
+    "D": "Because generalization only affects image resolution",
+    "answer": "A"
+  }
+]

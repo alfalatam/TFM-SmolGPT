@@ -20,3 +20,14 @@ out/Experimentos
 out/drive-download-20260322T224327Z-3-001.zip
 out/ckpt_best_run.pt
 src/smolgpt/test - copia.py
+tests/test antiguos/change.py
+tests/test antiguos/test - copia.json
+tests/test antiguos/test-corpus.json
+tests/test antiguos/test-fuera del corpus.json
+tests/test antiguos/test-generico.json
+tests/test antiguos/test-solo con palabras.json
+tests/test antiguos/test.json
+tests/test antiguos/test100.json
+tests/test antiguos/test100_updated.json
+tests/test antiguos/test20.json
+tests/test antiguos/test200.json

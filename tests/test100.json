@@ -1,0 +1,903 @@
+[
+  {
+    "id": 1,
+    "question": "In computer vision, what does RGB mean?",
+    "A": "It stands for red, green, and blue color components",
+    "B": "It stands for grayscale, brightness, and contrast values",
+    "C": "It stands for region growth and boundary detection methods",
+    "D": "It stands for red, gray, and binary image representation",
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "What is the main idea behind Otsu’s thresholding method?",
+    "A": "It determines an optimal threshold to separate foreground and background in a grayscale image",
+    "B": "It represents images using red, green, and blue color intensities",
+    "C": "It stores images using only grayscale intensity values",
+    "D": "It detects edges by computing image gradients",
+    "answer": "A"
+  },
+  {
+    "id": 3,
+    "question": "Why is Harris not scale-invariant in computer vision?",
+    "A": "It relies on color histograms that change with illumination conditions",
+    "B": "It uses feature descriptors that depend on image rotation",
+    "C": "It depends on image intensity derivatives that vary with scale",
+    "D": "It requires labeled data to correctly detect corners",
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "question": "Why is Random Sample Consensus (RANSAC) considered a robust estimation method in computer vision?",
+    "A": "It detects edges by applying gradient filters to grayscale images",
+    "B": "It converts images into different color spaces such as HSV or LAB",
+    "C": "It estimates model parameters from noisy data while ignoring outliers",
+    "D": "It improves image resolution by interpolating pixel values",
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "In computer vision, what is the effect of blurring on image details?",
+    "A": "It modifies image colors by changing pixel intensities",
+    "B": "It transforms encoded image representations into raw data",
+    "C": "It increases image sharpness by enhancing edges",
+    "D": "It reduces image sharpness by smoothing intensity variations",
+    "answer": "D"
+  },
+  {
+    "id": 6,
+    "question": "When is blending used?",
+    "A": "When combining different components to create a mixture with desired properties",
+    "B": "When detecting edges in grayscale images",
+    "C": "When converting images to binary format",
+    "D": "When rotating objects in 3D space",
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "question": "How do you measure the quality of segmentation?",
+    "A": "By evaluating metrics such as conversion rates, ROI, and how well segments represent the target audience",
+    "B": "By counting the number of pixels in an image",
+    "C": "By applying Gaussian filters to reduce noise",
+    "D": "By rotating images to align objects",
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "question": "What is an edge pixel?",
+    "A": "A pixel located at the boundary where there is a strong change in intensity or color",
+    "B": "A pixel representing the center of an object",
+    "C": "A pixel used for smoothing images",
+    "D": "A pixel that stores only grayscale values",
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "What is a filter kernel?",
+    "A": "A method used to rotate 3D objects",
+    "B": "A structure that processes data to extract specific information based on criteria",
+    "C": "A representation of pixel brightness in images",
+    "D": "A type of edge detection algorithm based only on gradients",
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "What is a 3D rotation?",
+    "A": "A transformation that changes the color of an object",
+    "B": "A method to segment images into regions",
+    "C": "A geometric transformation that changes the orientation of an object around an axis in 3D space",
+    "D": "A technique used to filter noise in images",
+    "answer": "C"
+  },
+  {
+    "id": 11,
+    "question": "How does the Fourier transform represent image frequency content in computer vision?",
+    "A": "By decomposing an image into its frequency components, separating low and high frequencies",
+    "B": "By converting images into binary representations",
+    "C": "By detecting edges using gradients",
+    "D": "By segmenting images into regions",
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "In computer vision, what is image normalization?",
+    "A": "A process that standardizes image properties such as pixel values, scale, or brightness",
+    "B": "A method to detect edges in images",
+    "C": "A transformation used to rotate images",
+    "D": "A technique to segment images into clusters",
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "question": "What is Otsu’s method used for in computer vision?",
+    "A": "Finding the optimal threshold to separate foreground and background",
+    "B": "Detecting edges using gradients",
+    "C": "Reducing image noise with filters",
+    "D": "Aligning multiple images together",
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "question": "What does a gradient operator compute in image processing?",
+    "A": "The change in pixel intensity",
+    "B": "The color distribution of an image",
+    "C": "The number of pixels in a region",
+    "D": "The frequency components of an image",
+    "answer": "A"
+  },
+  {
+    "id": 15,
+    "question": "How does active depth sensing differ from passive stereo estimation?",
+    "A": "Active sensing emits signals to measure depth, while passive stereo relies on differences between images",
+    "B": "Active sensing uses grayscale images, while passive stereo uses color images",
+    "C": "Active sensing detects edges, while passive stereo smooths images",
+    "D": "Active sensing uses only one camera, while passive stereo uses no cameras",
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "question": "Why is the fundamental matrix independent of scene structure?",
+    "A": "Because it depends only on camera geometry, not on the objects in the scene",
+    "B": "Because it encodes color information of the image",
+    "C": "Because it segments the image into regions",
+    "D": "Because it removes noise from images",
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "question": "How does temporal consistency help in computer vision?",
+    "A": "By using information from previous frames to improve predictions over time",
+    "B": "By converting images into frequency domain",
+    "C": "By reducing image resolution",
+    "D": "By normalizing pixel values",
+    "answer": "A"
+  },
+  {
+    "id": 18,
+    "question": "What is the k-Nearest Neighbors (KNN) algorithm?",
+    "A": "A method that predicts labels based on the closest examples in the dataset",
+    "B": "A method for detecting edges in images based on checkpoints",
+    "C": "A technique for reducing image noise",
+    "D": "A transformation used in 3D rotations",
+    "answer": "A"
+  },
+  {
+    "id": 19,
+    "question": "What is the main benefit of using PCA in vision tasks?",
+    "A": "Reducing dimensionality while preserving important information",
+    "B": "Detecting edges in images",
+    "C": "Increasing image resolution",
+    "D": "Segmenting images into clusters",
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "question": "What is a global minimum in optimization?",
+    "A": "A type of edge in an image",
+    "B": "A local variation in pixel intensity",
+    "C": "A method to normalize images",
+    "D": "The lowest possible value of a function across all possible solutions",
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "question": "What are the main challenges when stitching images containing motion?",
+    "A": "Detecting edges in grayscale images",
+    "B": "Aligning moving objects consistently across frames",
+    "C": "Reducing image resolution before processing",
+    "D": "Converting RGB images into binary images",
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "question": "How are moving objects typically handled in computer vision systems?",
+    "A": "By using tracking and motion estimation algorithms",
+    "B": "By converting all frames into grayscale",
+    "C": "By removing all dynamic regions from the image",
+    "D": "By applying only edge detection filters",
+    "answer": "A"
+  },
+  {
+    "id": 23,
+    "question": "What is one of the main difficulties in image deghosting?",
+    "A": "Detecting image frequency components",
+    "B": "Separating moving objects from static background regions",
+    "C": "Converting images into 3D models",
+    "D": "Increasing image sharpness with gradients",
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "question": "What is the role of temporal consistency in computer vision?",
+    "A": "Ensuring predictions remain stable across consecutive frames",
+    "B": "Reducing image brightness automatically",
+    "C": "Transforming images into binary representations",
+    "D": "Increasing image compression ratios",
+    "answer": "A"
+  },
+  {
+    "id": 25,
+    "question": "What methods can improve image stitching results?",
+    "A": "Applying motion compensation and seam optimization techniques",
+    "B": "Using only grayscale image representations",
+    "C": "Reducing the number of pixels in the image ",
+    "D": "Replacing feature matching with random sampling",
+    "answer": "A"
+  },
+  {
+    "id": 26,
+    "question": "When is de-ghosting necessary in image processing?",
+    "A": "When removing artifacts caused by moving objects between images",
+    "B": "When converting images into frequency domain",
+    "C": "When detecting corners using gradients",
+    "D": "When normalizing image brightness values",
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "question": "What is photomontage?",
+    "A": "A technique that combines multiple photographs into a composite image",
+    "B": "A method used for detecting image edges",
+    "C": "A process for reducing image noise",
+    "D": "A geometric transformation in 3D space",
+    "answer": "A"
+  },
+  {
+    "id": 28,
+    "question": "How can multiple images be combined creatively?",
+    "A": "By using compositing and blending techniques",
+    "B": "By converting all images into grayscale",
+    "C": "By reducing image dimensions",
+    "D": "By applying thresholding methods only",
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "question": "What is the main difference between photomontage and stitching?",
+    "A": "Photomontage creates artistic composites, while stitching aligns overlapping images into panoramas",
+    "B": "Photomontage uses only grayscale images, while stitching uses RGB images",
+    "C": "Photomontage removes image noise, while stitching detects edges",
+    "D": "Photomontage is used for segmentation, while stitching is used for filtering",
+    "answer": "A"
+  },
+  {
+    "id": 30,
+    "question": "How are regions typically chosen in computer vision tasks?",
+    "A": "By analyzing features such as edges, textures, and colors",
+    "B": "By randomly selecting image pixels",
+    "C": "By reducing image brightness values",
+    "D": "By rotating the image multiple times",
+    "answer": "A"
+  },
+  {
+    "id": 31,
+    "question": "What is a common difficulty encountered during image blending?",
+    "A": "Creating smooth transitions between different image regions",
+    "B": "Detecting image gradients",
+    "C": "Converting images into binary format",
+    "D": "Measuring object velocity",
+    "answer": "A"
+  },
+  {
+    "id": 32,
+    "question": "What is the significance of seam optimization in image stitching?",
+    "A": "It minimizes visible boundaries between combined images",
+    "B": "It increases image brightness automatically",
+    "C": "It converts images into frequency components",
+    "D": "It detects corners in grayscale images",
+    "answer": "A"
+  },
+  {
+    "id": 33,
+    "question": "How are graph cuts (GC) used in computer vision?",
+    "A": "For optimization and segmentation tasks by partitioning graphs",
+    "B": "For converting RGB images into grayscale",
+    "C": "For detecting image noise",
+    "D": "For increasing image sharpness",
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "question": "What techniques help make a photomontage look realistic?",
+    "A": "Careful blending of edges and consistent lighting adjustments",
+    "B": "Applying only thresholding methods",
+    "C": "Using random image transformations",
+    "D": "Reducing the number of image colors",
+    "answer": "A"
+  },
+  {
+    "id": 35,
+    "question": "What is the purpose of transitions in image blending?",
+    "A": "To create smooth visual changes between image regions",
+    "B": "To increase image compression ratios",
+    "C": "To convert images into binary masks between image regions",
+    "D": "To remove all image textures",
+    "answer": "A"
+  },
+  {
+    "id": 36,
+    "question": "In what situations are photomontages commonly used?",
+    "A": "Artistic expression, advertising, and visual storytelling",
+    "B": "Only for edge detection tasks",
+    "C": "Only for medical segmentation",
+    "D": "Only for image normalization",
+    "answer": "A"
+  },
+  {
+    "id": 37,
+    "question": "What does blending mean in image processing?",
+    "A": "Combining pixels from multiple images to create a composite image",
+    "B": "Detecting edges using image gradients",
+    "C": "Converting RGB images into grayscale",
+    "D": "Rotating objects in 3D space",
+    "answer": "A"
+  },
+  {
+    "id": 38,
+    "question": "How does blending create smooth transitions between images?",
+    "A": "By gradually combining pixel values across image boundaries",
+    "B": "By increasing image resolution",
+    "C": "By removing all shadows from the image",
+    "D": "By converting images into binary format",
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "question": "What is the purpose of blending in image stitching?",
+    "A": "To reduce visible seams between overlapping images",
+    "B": "To detect image corners",
+    "C": "To normalize image brightness",
+    "D": "To segment objects into clusters",
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "question": "What is the difference between linear and multi-band blending?",
+    "A": "Multi-band blending combines information at different frequency scales, while linear blending uses direct pixel interpolation",
+    "B": "Linear blending uses grayscale images, while multi-band blending uses RGB images",
+    "C": "Linear blending performs segmentation, while multi-band blending performs edge detection",
+    "D": "There is no difference between them",
+    "answer": "A"
+  },
+  {
+    "id": 41,
+    "question": "What is multi-band blending?",
+    "A": "A technique that blends images using multiple frequency bands",
+    "B": "A method used only for edge detection",
+    "C": "A segmentation algorithm based on clustering",
+    "D": "A method for converting images into grayscale",
+    "answer": "A"
+  },
+  {
+    "id": 42,
+    "question": "What is the role of pyramids in image blending?",
+    "A": "They represent images at multiple resolutions for smoother blending",
+    "B": "They detect image corners automatically",
+    "C": "They convert images into binary masks",
+    "D": "They normalize image brightness values",
+    "answer": "A"
+  },
+  {
+    "id": 43,
+    "question": "What happens to seams when images are properly blended?",
+    "A": "They become less visible and smoother",
+    "B": "They become sharper and more noticeable",
+    "C": "They are converted into edges",
+    "D": "They disappear by reducing image resolution",
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "question": "How are color differences handled in image stitching?",
+    "A": "By adjusting color and brightness consistency between images",
+    "B": "By removing all color information",
+    "C": "By converting all images into binary masks",
+    "D": "By applying edge detection filters",
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "question": "What problems can blending cause in stitched images?",
+    "A": "Visible artifacts such as ghosting or blurred transitions",
+    "B": "Automatic object detection",
+    "C": "Improved image segmentation accuracy",
+    "D": "Reduction of image frequency content",
+    "answer": "A"
+  },
+  {
+    "id": 46,
+    "question": "How does smoothing reduce visible seams in image stitching?",
+    "A": "By sharpening the boundary between images",
+    "B": "By creating gradual transitions between neighboring pixel values",
+    "C": "By converting the images into binary masks",
+    "D": "By removing all texture information from the image",
+    "answer": "B"
+  },
+  {
+    "id": 47,
+    "question": "What challenge arises in gap filling in computer vision?",
+    "A": "Predicting missing image regions accurately from surrounding context",
+    "B": "Converting RGB images into grayscale",
+    "C": "Detecting only the brightest pixels",
+    "D": "Rotating the image around a fixed axis",
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "question": "Why does camera rotation simplify panorama creation?",
+    "A": "Because it avoids the need for overlapping images",
+    "B": "Because it keeps the viewpoint approximately fixed while changing the viewing direction",
+    "C": "Because it removes all moving objects from the scene",
+    "D": "Because it converts the panorama into a binary image",
+    "answer": "B"
+  },
+  {
+    "id": 49,
+    "question": "Why does camera rotation reduce parallax in panorama creation?",
+    "A": "Because the camera changes position significantly between images",
+    "B": "Because objects are segmented before stitching",
+    "C": "Because the camera rotates around its optical center instead of translating",
+    "D": "Because image brightness is normalized automatically",
+    "answer": "C"
+  },
+  {
+    "id": 50,
+    "question": "How are images mapped in rotational panoramas?",
+    "A": "By projecting images onto a common surface and aligning their overlapping regions",
+    "B": "By deleting all non-overlapping regions",
+    "C": "By converting each image into a histogram",
+    "D": "By applying thresholding to each frame",
+    "answer": "A"
+  },
+  {
+    "id": 51,
+    "question": "What assumption is usually made when creating a rotational panorama?",
+    "A": "The scene is captured with pure camera rotation and little or no translation",
+    "B": "The scene contains no color information",
+    "C": "The camera must move forward between each image",
+    "D": "All objects must be detected with a classifier",
+    "answer": "A"
+  },
+  {
+    "id": 52,
+    "question": "How are Conditional Random Fields different from Markov Random Fields?",
+    "A": "CRFs model the conditional distribution of labels given observations, while MRFs model joint dependencies",
+    "B": "CRFs are used only for image compression",
+    "C": "MRFs require labeled data, while CRFs do not use labels",
+    "D": "CRFs only work with grayscale images",
+    "answer": "A"
+  },
+  {
+    "id": 53,
+    "question": "Why can CRF models be better than MRF models for labeling tasks?",
+    "A": "Because they ignore observed image features",
+    "B": "Because they directly use observed data to guide label prediction",
+    "C": "Because they remove all spatial dependencies",
+    "D": "Because they only classify individual pixels independently",
+    "answer": "B"
+  },
+  {
+    "id": 54,
+    "question": "How are Radial Basis Functions used in interpolation?",
+    "A": "They estimate unknown values using functions centered around known data points",
+    "B": "They detect image corners using gradients",
+    "C": "They convert color images into grayscale",
+    "D": "They remove noise by thresholding pixels",
+    "answer": "A"
+  },
+  {
+    "id": 55,
+    "question": "Why do Radial Basis Functions work well with scattered data?",
+    "A": "Because they require data points to be arranged on a regular grid",
+    "B": "Because they use localized functions based on distance from known samples",
+    "C": "Because they discard points that are far apart",
+    "D": "Because they only work with binary images",
+    "answer": "B"
+  },
+  {
+    "id": 56,
+    "question": "How does RANSAC help fit data that is not perfectly accurate?",
+    "A": "By fitting models only to color information",
+    "B": "By repeatedly sampling subsets and choosing the model supported by most inliers",
+    "C": "By averaging all data points equally",
+    "D": "By converting noisy data into an image pyramid",
+    "answer": "B"
+  },
+  {
+    "id": 57,
+    "question": "How does RANSAC handle outliers?",
+    "A": "By identifying samples that do not agree with the estimated model",
+    "B": "By increasing the resolution of the image",
+    "C": "By applying Gaussian smoothing to all pixels",
+    "D": "By forcing all points to fit the same line",
+    "answer": "A"
+  },
+  {
+    "id": 58,
+    "question": "What is one benefit of using Conditional Random Fields?",
+    "A": "They can model dependencies between neighboring labels",
+    "B": "They remove the need for training data",
+    "C": "They only use global image brightness",
+    "D": "They are used exclusively for image rotation",
+    "answer": "A"
+  },
+  {
+    "id": 59,
+    "question": "What is the role of CRFs in image labeling?",
+    "A": "Assigning labels while considering relationships between neighboring regions",
+    "B": "Reducing image size before compression",
+    "C": "Detecting edges using only gradients",
+    "D": "Converting images into frequency components",
+    "answer": "A"
+  },
+  {
+    "id": 60,
+    "question": "What makes CRFs useful for segmentation tasks?",
+    "A": "They combine local evidence with spatial consistency between neighboring pixels",
+    "B": "They ignore neighboring pixels completely",
+    "C": "They only work on text sequences",
+    "D": "They replace segmentation with image smoothing",
+    "answer": "A"
+  },
+  {
+    "id": 61,
+    "question": "How do CRFs use already observed data?",
+    "A": "They condition predictions on the input observations and surrounding context",
+    "B": "They discard observations before prediction",
+    "C": "They use only random labels",
+    "D": "They convert observations into camera rotations",
+    "answer": "A"
+  },
+  {
+    "id": 62,
+    "question": "What does a feature do in a CRF?",
+    "A": "It provides evidence about the input that helps predict the correct label",
+    "B": "It removes all dependencies between labels",
+    "C": "It stores only the final output image",
+    "D": "It determines the camera focal length",
+    "answer": "A"
+  },
+  {
+    "id": 63,
+    "question": "How do CRFs help make predictions more accurate?",
+    "A": "By using contextual relationships between labels and observations",
+    "B": "By predicting each label completely independently",
+    "C": "By removing all training examples",
+    "D": "By applying only linear interpolation",
+    "answer": "A"
+  },
+  {
+    "id": 64,
+    "question": "When are CRFs a good choice?",
+    "A": "When labels depend on neighboring elements or contextual information",
+    "B": "When images contain no structure",
+    "C": "When only random sampling is needed",
+    "D": "When the task is simple image compression",
+    "answer": "A"
+  },
+   {
+    "id": 65,
+    "question": "What is semi-supervised learning in computer vision?",
+    "A": "A learning approach that uses both labeled and unlabeled data during training",
+    "B": "A method that only uses synthetic images",
+    "C": "A segmentation algorithm based on gradients",
+    "D": "A technique for rotating 3D objects",
+    "answer": "A"
+  },
+  {
+    "id": 66,
+    "question": "What is self-supervised learning?",
+    "A": "A learning approach where models learn patterns from unlabeled data",
+    "B": "A method that requires fully annotated datasets",
+    "C": "A filtering technique for reducing image noise",
+    "D": "A method used only for image compression",
+    "answer": "A"
+  },
+  {
+    "id": 67,
+    "question": "Why is labeled data costly in computer vision?",
+    "A": "Because manual annotation requires significant human effort and expertise",
+    "B": "Because images cannot be stored digitally",
+    "C": "Because labels are generated automatically by cameras",
+    "D": "Because segmentation removes all image information",
+    "answer": "A"
+  },
+  {
+    "id": 68,
+    "question": "What is transfer learning in computer vision?",
+    "A": "Using knowledge learned from one task to improve performance on another related task",
+    "B": "Converting grayscale images into RGB format",
+    "C": "Applying thresholding repeatedly to the same image",
+    "D": "A method used only for image segmentation",
+    "answer": "A"
+  },
+  {
+    "id": 69,
+    "question": "How does edge linking improve edge detection results?",
+    "A": "By connecting fragmented edge pixels into more continuous boundaries",
+    "B": "By removing all image gradients",
+    "C": "By converting images into binary masks",
+    "D": "By increasing image brightness",
+    "answer": "A"
+  },
+  {
+    "id": 70,
+    "question": "What properties are commonly used to link edge pixels?",
+    "A": "Gradient magnitude and gradient direction",
+    "B": "Only pixel brightness",
+    "C": "Image compression ratios",
+    "D": "Camera focal length values",
+    "answer": "A"
+  },
+  {
+    "id": 71,
+    "question": "What is the role of gradient direction in edge linking?",
+    "A": "It helps determine whether neighboring edge pixels belong to the same contour",
+    "B": "It converts images into grayscale representations",
+    "C": "It increases image resolution",
+    "D": "It removes texture information from the image",
+    "answer": "A"
+  },
+  {
+    "id": 72,
+    "question": "How does K-means clustering perform image segmentation?",
+    "A": "By grouping pixels into clusters according to feature similarity",
+    "B": "By detecting edges using gradients",
+    "C": "By rotating images around a central point",
+    "D": "By converting images into binary masks",
+    "answer": "A"
+  },
+  {
+    "id": 73,
+    "question": "Why does K-means depend on the chosen feature space?",
+    "A": "Because clustering quality depends on how the data is represented",
+    "B": "Because K-means only works on grayscale images",
+    "C": "Because the algorithm ignores pixel values",
+    "D": "Because feature spaces automatically remove noise",
+    "answer": "A"
+  },
+  {
+    "id": 74,
+    "question": "What are geometric transformations in image processing?",
+    "A": "Operations that map image coordinates to new spatial positions",
+    "B": "Methods that convert images into binary masks",
+    "C": "Algorithms that detect edges using gradients",
+    "D": "Processes that remove all image textures",
+    "answer": "A"
+  },
+  {
+    "id": 75,
+    "question": "What is thresholding in computer vision?",
+    "A": "A segmentation technique that separates pixels based on intensity values",
+    "B": "A method for rotating 3D objects",
+    "C": "A technique for compressing images",
+    "D": "A filtering process for smoothing textures",
+    "answer": "A"
+  }, {
+    "id": 76,
+    "question": "What is identity switching in object tracking?",
+    "A": "When a tracking system confuses one tracked object with another",
+    "B": "When an image is converted into grayscale",
+    "C": "When object edges are sharpened",
+    "D": "When the camera changes resolution",
+    "answer": "A"
+  },
+  {
+    "id": 77,
+    "question": "What does tracking drift mean in computer vision?",
+    "A": "The gradual loss of tracking accuracy over time",
+    "B": "The conversion of images into binary masks",
+    "C": "The detection of image gradients",
+    "D": "The alignment of multiple panoramas",
+    "answer": "A"
+  },
+  {
+    "id": 78,
+    "question": "What is a major challenge in long-term object tracking?",
+    "A": "Maintaining object identity despite appearance changes and occlusions",
+    "B": "Converting images into frequency components",
+    "C": "Removing all textures from the scene",
+    "D": "Detecting only static objects",
+    "answer": "A"
+  },
+  {
+    "id": 79,
+    "question": "What is background subtraction in computer vision?",
+    "A": "A technique that detects moving objects by comparing consecutive frames",
+    "B": "A process that converts RGB images into grayscale",
+    "C": "A filtering method for sharpening edges",
+    "D": "A segmentation technique based on clustering",
+    "answer": "A"
+  },
+  {
+    "id": 80,
+    "question": "Why is it important to use the same pixel pairs when comparing BRIEF descriptors?",
+    "A": "To ensure consistent feature comparisons between images",
+    "B": "To reduce image brightness automatically",
+    "C": "To increase image resolution",
+    "D": "To normalize object scale",
+    "answer": "A"
+  },
+  {
+    "id": 81,
+    "question": "Why are FAST, BRIEF, and ORB generally faster than SIFT?",
+    "A": "Because they use simpler and more computationally efficient feature extraction methods",
+    "B": "Because they only work on grayscale images",
+    "C": "Because they ignore image features completely",
+    "D": "Because they avoid detecting keypoints",
+    "answer": "A"
+  },
+  {
+    "id": 82,
+    "question": "When are binary descriptors preferred over floating-point descriptors?",
+    "A": "When computational efficiency and low memory usage are important",
+    "B": "When maximum image resolution is required",
+    "C": "When using only frequency-domain processing",
+    "D": "When performing image thresholding",
+    "answer": "A"
+  },
+  {
+    "id": 83,
+    "question": "What is the relationship between dilation and erosion in computer vision?",
+    "A": "Dilation expands image regions while erosion shrinks them",
+    "B": "Both operations only detect edges",
+    "C": "Both operations increase image brightness",
+    "D": "Dilation and erosion are identical operations",
+    "answer": "A"
+  },
+  {
+    "id": 84,
+    "question": "What are dilation and erosion mainly used for?",
+    "A": "Morphological image processing and shape manipulation",
+    "B": "Color space conversion",
+    "C": "Frequency analysis",
+    "D": "3D object rotation",
+    "answer": "A"
+  },
+  {
+    "id": 85,
+    "question": "What is opening in computer vision morphology?",
+    "A": "An operation that removes small objects and noise from an image",
+    "B": "A method for increasing image contrast",
+    "C": "A process for converting images into RGB",
+    "D": "A tracking algorithm for moving objects",
+    "answer": "A"
+  },
+  {
+    "id": 86,
+    "question": "What is closing in computer vision morphology?",
+    "A": "An operation used to fill small gaps and connect nearby regions",
+    "B": "A technique for reducing image size",
+    "C": "A filtering process for sharpening edges",
+    "D": "A segmentation algorithm based on clustering",
+    "answer": "A"
+  },
+  {
+    "id": 87,
+    "question": "What is a key difference between Mean Shift and K-means?",
+    "A": "Mean Shift does not require specifying the number of clusters beforehand",
+    "B": "K-means only works with grayscale images",
+    "C": "Mean Shift ignores local density information",
+    "D": "K-means performs only edge detection",
+    "answer": "A"
+  },
+  {
+    "id": 88,
+    "question": "What does the window do in Mean Shift?",
+    "A": "It defines the local neighborhood used to estimate density",
+    "B": "It converts images into binary masks",
+    "C": "It removes image gradients",
+    "D": "It increases image sharpness",
+    "answer": "A"
+  },
+  {
+    "id": 89,
+    "question": "How is the mean vector calculated in Mean Shift?",
+    "A": "By computing the weighted average position of neighboring points",
+    "B": "By detecting image corners",
+    "C": "By applying thresholding to all pixels",
+    "D": "By rotating the image around a central axis",
+    "answer": "A"
+  },
+  {
+    "id": 90,
+    "question": "What is bilateral filtering?",
+    "A": "A filtering technique that reduces noise while preserving edges",
+    "B": "A segmentation algorithm based on clustering",
+    "C": "A process for converting RGB images into grayscale",
+    "D": "A method for detecting corners in images",
+    "answer": "A"
+  },
+  {
+    "id": 91,
+    "question": "How does bilateral filtering preserve edges?",
+    "A": "By considering both spatial proximity and intensity similarity",
+    "B": "By averaging all pixels equally",
+    "C": "By removing all high-frequency information",
+    "D": "By converting images into binary masks",
+    "answer": "A"
+  },
+  {
+    "id": 92,
+    "question": "What is the difference between Gaussian and bilateral filtering?",
+    "A": "Bilateral filtering preserves edges better by considering intensity differences",
+    "B": "Gaussian filtering performs segmentation while bilateral filtering detects corners",
+    "C": "Gaussian filtering only works on color images",
+    "D": "There is no difference between them",
+    "answer": "A"
+  },
+  {
+    "id": 93,
+    "question": "Why does bilateral filtering consider both space and intensity?",
+    "A": "To smooth noise while preserving important image structures",
+    "B": "To increase image resolution",
+    "C": "To remove all textures from the image",
+    "D": "To convert images into grayscale",
+    "answer": "A"
+  },
+  {
+    "id": 94,
+    "question": "What is an example of a common linear filter?",
+    "A": "Gaussian blur",
+    "B": "K-means clustering",
+    "C": "RANSAC",
+    "D": "Mean Shift",
+    "answer": "A"
+  },
+  {
+    "id": 95,
+    "question": "How does a smoothing filter work?",
+    "A": "By averaging neighboring pixel values to reduce noise",
+    "B": "By sharpening all image edges",
+    "C": "By converting images into binary masks",
+    "D": "By detecting image corners",
+    "answer": "A"
+  },
+  {
+    "id": 96,
+    "question": "What is the purpose of edge detection filters?",
+    "A": "To identify boundaries where pixel intensity changes sharply",
+    "B": "To remove all image textures",
+    "C": "To normalize image brightness",
+    "D": "To convert RGB images into HSV",
+    "answer": "A"
+  },
+  {
+    "id": 97,
+    "question": "What is a sharpening filter?",
+    "A": "A filter that enhances edges and fine details in an image",
+    "B": "A segmentation algorithm for clustering pixels",
+    "C": "A method for reducing image resolution",
+    "D": "A process for detecting motion between frames",
+    "answer": "A"
+  },
+  {
+    "id": 98,
+    "question": "Why are Gaussian filters widely used in image processing?",
+    "A": "Because they effectively reduce noise while preserving overall image structure",
+    "B": "Because they only work on binary images",
+    "C": "Because they perform object tracking automatically",
+    "D": "Because they replace segmentation algorithms",
+    "answer": "A"
+  },
+  {
+    "id": 99,
+    "question": "How can pixel transforms improve image contrast?",
+    "A": "By modifying pixel intensity values to enhance visual differences",
+    "B": "By removing all color information",
+    "C": "By reducing image dimensions",
+    "D": "By converting images into frequency components",
+    "answer": "A"
+  },
+  {
+    "id": 100,
+    "question": "Why are pixel transforms considered simple yet powerful?",
+    "A": "Because small modifications to pixel values can significantly affect image appearance and features",
+    "B": "Because they only work on grayscale images",
+    "C": "Because they avoid mathematical operations",
+    "D": "Because they perform segmentation automatically",
+    "answer": "A"
+  }
+
+]
+  

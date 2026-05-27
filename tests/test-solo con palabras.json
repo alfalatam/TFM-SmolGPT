@@ -1,0 +1,450 @@
+[
+  {
+    "id": 1,
+    "question": "RGB",
+    "A": "RGB represents colors using red, green, and blue light intensity components",
+    "B": "RGB separates images into hue, saturation, and illumination frequency channels",
+    "C": "RGB estimates object depth using geometric perspective reconstruction principles",
+    "D": "RGB compresses image textures using recursive spectral filtering transformations",
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "CMYK",
+    "A": "CMYK defines image colors through additive combinations of emitted light wavelengths",
+    "B": "CMYK represents colors using cyan, magenta, yellow, and black printing components",
+    "C": "CMYK calculates edge orientations using gradient magnitude accumulation methods",
+    "D": "CMYK estimates motion trajectories through temporal feature correspondence analysis",
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "HSI",
+    "A": "HSI models images using hue, saturation, and intensity color representations",
+    "B": "HSI computes optical flow vectors from neighboring pixel displacement estimates",
+    "C": "HSI extracts frequency-domain coefficients for image restoration applications efficiently",
+    "D": "HSI performs object segmentation using recursive morphological expansion operations",
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "question": "Hue",
+    "A": "Hue represents the amount of reflected illumination reaching the camera sensor",
+    "B": "Hue describes the dominant perceived color wavelength within an image",
+    "C": "Hue measures the sharpness of spatial intensity transitions between pixels",
+    "D": "Hue estimates local texture consistency using directional filtering operations",
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "Saturation",
+    "A": "Saturation measures the purity or vividness of a perceived color",
+    "B": "Saturation computes image contrast through histogram equalization procedures automatically",
+    "C": "Saturation estimates camera perspective using geometric projection relationships mathematically",
+    "D": "Saturation removes sensor noise through recursive spatial averaging transformations",
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "Intensity",
+    "A": "Intensity represents the dominant geometric orientation of local image structures",
+    "B": "Intensity measures the brightness level associated with a color representation",
+    "C": "Intensity calculates feature descriptors through recursive histogram normalization operations",
+    "D": "Intensity detects image boundaries using second-order derivative approximations recursively",
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "Color space",
+    "A": "A color space defines how colors are numerically represented and interpreted",
+    "B": "A color space estimates image motion through recursive temporal correspondence tracking",
+    "C": "A color space identifies object contours using adaptive threshold segmentation procedures",
+    "D": "A color space computes frequency-domain image restoration filters automatically",
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "question": "Additive color model",
+    "A": "An additive color model generates colors by combining emitted light components",
+    "B": "An additive color model removes image noise using recursive averaging kernels",
+    "C": "An additive color model estimates depth using binocular geometric constraints",
+    "D": "An additive color model compresses images through frequency-domain coefficient pruning",
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "Subtractive color model",
+    "A": "A subtractive color model represents colors through reflected light absorption properties",
+    "B": "A subtractive color model estimates feature motion using recursive tracking windows",
+    "C": "A subtractive color model enhances edges using Laplacian derivative operators repeatedly",
+    "D": "A subtractive color model reconstructs images from sparse frequency measurements efficiently",
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "question": "Color channels",
+    "A": "Color channels represent independent intensity components contributing to image colors",
+    "B": "Color channels estimate object trajectories through recursive motion propagation models",
+    "C": "Color channels identify texture orientation using directional gradient accumulation procedures",
+    "D": "Color channels compress image information through spectral quantization transformations automatically",
+    "answer": "A"
+  },{
+  "id": 11,
+  "question": "Spatial sampling",
+  "A": "Spatial sampling divides an image into discrete pixel regions for analysis",
+  "B": "Spatial sampling estimates object trajectories using recursive motion correspondence techniques",
+  "C": "Spatial sampling compresses image frequencies through cosine transform coefficients automatically",
+  "D": "Spatial sampling reconstructs image depth using binocular geometric relationships mathematically",
+  "answer": "A"
+},
+{
+  "id": 12,
+  "question": "Quantization",
+  "A": "Quantization reduces numerical precision to simplify computations and memory usage",
+  "B": "Quantization enlarges image regions using recursive morphological expansion procedures repeatedly",
+  "C": "Quantization estimates feature orientation through gradient accumulation operations continuously",
+  "D": "Quantization detects object boundaries using adaptive threshold segmentation methods automatically",
+  "answer": "A"
+},
+{
+  "id": 13,
+  "question": "Pixel",
+  "A": "A pixel represents a single image point containing intensity or color information",
+  "B": "A pixel estimates scene motion using recursive temporal feature propagation techniques",
+  "C": "A pixel computes frequency-domain filtering coefficients for image restoration efficiently",
+  "D": "A pixel identifies object contours through geometric edge linking procedures automatically",
+  "answer": "A"
+},
+{
+  "id": 14,
+  "question": "Spatial resolution",
+  "A": "Spatial resolution describes the number and arrangement of image pixels",
+  "B": "Spatial resolution measures recursive color normalization across neighboring image regions",
+  "C": "Spatial resolution estimates optical flow through temporal brightness consistency constraints",
+  "D": "Spatial resolution performs image compression using frequency-domain quantization methods",
+  "answer": "A"
+},
+{
+  "id": 15,
+  "question": "Intensity resolution",
+  "A": "Intensity resolution defines the ability to distinguish different brightness levels",
+  "B": "Intensity resolution computes spatial object alignment through geometric projection analysis",
+  "C": "Intensity resolution estimates local texture orientation using directional filtering operations",
+  "D": "Intensity resolution enlarges segmented image regions through recursive dilation procedures",
+  "answer": "A"
+},
+{
+  "id": 16,
+  "question": "Grayscale image",
+  "A": "A grayscale image represents visual information using shades from black to white",
+  "B": "A grayscale image estimates object motion using recursive temporal intensity propagation",
+  "C": "A grayscale image identifies color distributions through spectral histogram transformations automatically",
+  "D": "A grayscale image reconstructs depth using binocular disparity estimation procedures",
+  "answer": "A"
+},
+{
+  "id": 17,
+  "question": "f(x,y)",
+  "A": "f(x,y) represents the intensity value at a specific image location",
+  "B": "f(x,y) computes recursive feature correspondences between consecutive video frames automatically",
+  "C": "f(x,y) estimates spatial object deformation using geometric transformation matrices continuously",
+  "D": "f(x,y) compresses image textures through cosine frequency approximation techniques",
+  "answer": "A"
+},
+{
+  "id": 18,
+  "question": "Gray levels",
+  "A": "Gray levels determine the number of distinguishable brightness variations in an image",
+  "B": "Gray levels estimate optical motion through recursive pixel displacement calculations continuously",
+  "C": "Gray levels identify object contours using adaptive edge linking transformations repeatedly",
+  "D": "Gray levels reconstruct image geometry using projective camera calibration equations",
+  "answer": "A"
+},
+{
+  "id": 19,
+  "question": "Bits and gray levels",
+  "A": "Increasing the number of bits increases the number of possible gray levels",
+  "B": "Increasing the number of bits reduces spatial image resolution automatically",
+  "C": "Increasing the number of bits estimates feature descriptors more efficiently geometrically",
+  "D": "Increasing the number of bits suppresses image noise through recursive averaging operations",
+  "answer": "A"
+},
+{
+  "id": 20,
+  "question": "Image storage",
+  "A": "Image storage depends on image dimensions and bits used per pixel",
+  "B": "Image storage computes recursive segmentation masks using adaptive clustering transformations",
+  "C": "Image storage estimates image sharpness through frequency-domain edge accumulation methods",
+  "D": "Image storage reconstructs spatial object geometry using perspective projection relationships",
+  "answer": "A"
+},{
+  "id": 21,
+  "question": "Image contrast",
+  "A": "Image contrast describes differences in brightness between image regions",
+  "B": "Image contrast estimates scene geometry using recursive projection analysis methods",
+  "C": "Image contrast reconstructs object motion through temporal correspondence propagation",
+  "D": "Image contrast compresses frequency coefficients using adaptive transform coding",
+  "answer": "A"
+},
+{
+  "id": 22,
+  "question": "Dynamic range",
+  "A": "Dynamic range represents the span between minimum and maximum intensity values",
+  "B": "Dynamic range estimates object orientation through recursive edge accumulation procedures",
+  "C": "Dynamic range performs spatial segmentation using adaptive clustering transformations",
+  "D": "Dynamic range reconstructs scene depth using binocular disparity equations automatically",
+  "answer": "A"
+},
+{
+  "id": 23,
+  "question": "Histogram",
+  "A": "A histogram represents the distribution of intensity values within an image",
+  "B": "A histogram estimates geometric object deformation using recursive transformations continuously",
+  "C": "A histogram identifies motion vectors through temporal feature propagation techniques",
+  "D": "A histogram reconstructs image textures using spectral frequency approximation procedures",
+  "answer": "A"
+},
+{
+  "id": 24,
+  "question": "Histogram equalization",
+  "A": "Histogram equalization improves image contrast by redistributing intensity values",
+  "B": "Histogram equalization estimates optical motion through recursive brightness propagation methods",
+  "C": "Histogram equalization reconstructs spatial geometry using projective transformation equations",
+  "D": "Histogram equalization compresses image information through cosine coefficient reduction",
+  "answer": "A"
+},
+{
+  "id": 25,
+  "question": "Noise",
+  "A": "Noise refers to unwanted variations that distort image information",
+  "B": "Noise estimates spatial object trajectories using recursive motion propagation techniques",
+  "C": "Noise reconstructs missing image regions through geometric interpolation procedures",
+  "D": "Noise compresses texture information using adaptive frequency-domain transformations",
+  "answer": "A"
+},
+{
+  "id": 26,
+  "question": "Gaussian noise",
+  "A": "Gaussian noise follows a normal distribution affecting image intensity values randomly",
+  "B": "Gaussian noise estimates object contours through recursive edge linking algorithms automatically",
+  "C": "Gaussian noise reconstructs scene geometry using projective calibration relationships continuously",
+  "D": "Gaussian noise performs image segmentation through adaptive clustering transformations",
+  "answer": "A"
+},
+{
+  "id": 27,
+  "question": "Salt-and-pepper noise",
+  "A": "Salt-and-pepper noise introduces random black and white pixel disturbances",
+  "B": "Salt-and-pepper noise estimates optical flow using recursive temporal matching operations",
+  "C": "Salt-and-pepper noise reconstructs object shapes through geometric interpolation methods",
+  "D": "Salt-and-pepper noise compresses image frequencies using adaptive transform coding procedures",
+  "answer": "A"
+},
+{
+  "id": 28,
+  "question": "Filtering",
+  "A": "Filtering modifies image information to reduce noise or enhance structures",
+  "B": "Filtering estimates object trajectories using recursive temporal motion constraints",
+  "C": "Filtering reconstructs scene geometry using projective camera calibration procedures",
+  "D": "Filtering compresses image representations through cosine frequency decomposition techniques",
+  "answer": "A"
+},
+{
+  "id": 29,
+  "question": "Low-pass filter",
+  "A": "A low-pass filter preserves smooth image regions while reducing high-frequency details",
+  "B": "A low-pass filter estimates recursive feature motion across consecutive image frames",
+  "C": "A low-pass filter reconstructs depth information using stereo projection equations",
+  "D": "A low-pass filter performs image segmentation through adaptive region clustering operations",
+  "answer": "A"
+},
+{
+  "id": 30,
+  "question": "High-pass filter",
+  "A": "A high-pass filter emphasizes edges and rapid intensity changes in images",
+  "B": "A high-pass filter estimates object trajectories using recursive geometric alignment methods",
+  "C": "A high-pass filter reconstructs spatial depth through binocular disparity computations",
+  "D": "A high-pass filter compresses image frequencies using adaptive cosine transformations",
+  "answer": "A"
+},
+{
+  "id": 31,
+  "question": "Edge detection",
+  "A": "Edge detection identifies significant intensity changes corresponding to object boundaries",
+  "B": "Edge detection estimates recursive optical flow between consecutive video frames",
+  "C": "Edge detection reconstructs object geometry using perspective projection equations",
+  "D": "Edge detection compresses image textures through adaptive transform coding methods",
+  "answer": "A"
+},
+{
+  "id": 32,
+  "question": "Gradient",
+  "A": "The gradient measures the rate of intensity change across image regions",
+  "B": "The gradient estimates recursive object motion using temporal propagation algorithms",
+  "C": "The gradient reconstructs scene depth through geometric calibration relationships automatically",
+  "D": "The gradient compresses image information using cosine transform coefficients efficiently",
+  "answer": "A"
+},
+{
+  "id": 33,
+  "question": "Sobel operator",
+  "A": "The Sobel operator estimates image gradients to highlight edges",
+  "B": "The Sobel operator reconstructs scene geometry using projective camera transformations",
+  "C": "The Sobel operator estimates recursive motion trajectories through temporal propagation",
+  "D": "The Sobel operator compresses image textures using spectral approximation techniques",
+  "answer": "A"
+},
+{
+  "id": 34,
+  "question": "Laplacian operator",
+  "A": "The Laplacian operator detects intensity variations using second-order derivatives",
+  "B": "The Laplacian operator estimates optical motion through recursive temporal matching operations",
+  "C": "The Laplacian operator reconstructs depth information using binocular disparity analysis",
+  "D": "The Laplacian operator compresses image representations through cosine transform decomposition",
+  "answer": "A"
+},
+{
+  "id": 35,
+  "question": "Thresholding",
+  "A": "Thresholding separates image regions according to intensity value comparisons",
+  "B": "Thresholding estimates object trajectories through recursive temporal propagation techniques",
+  "C": "Thresholding reconstructs spatial geometry using perspective calibration equations automatically",
+  "D": "Thresholding compresses image frequencies through adaptive transform coding procedures",
+  "answer": "A"
+},
+{
+  "id": 36,
+  "question": "Binary image",
+  "A": "A binary image contains only two possible intensity values",
+  "B": "A binary image estimates optical flow through recursive brightness consistency analysis",
+  "C": "A binary image reconstructs object depth using projective geometry relationships",
+  "D": "A binary image compresses texture information using frequency-domain approximations",
+  "answer": "A"
+},
+{
+  "id": 37,
+  "question": "Segmentation",
+  "A": "Segmentation divides an image into meaningful and distinct regions",
+  "B": "Segmentation estimates object motion through recursive temporal feature tracking methods",
+  "C": "Segmentation reconstructs scene geometry using binocular disparity transformations continuously",
+  "D": "Segmentation compresses image structures through adaptive frequency decomposition techniques",
+  "answer": "A"
+},
+{
+  "id": 38,
+  "question": "Region growing",
+  "A": "Region growing expands regions by grouping neighboring pixels with similar properties",
+  "B": "Region growing estimates optical motion through recursive displacement propagation algorithms",
+  "C": "Region growing reconstructs image depth using geometric stereo correspondence equations",
+  "D": "Region growing compresses image textures through cosine frequency approximation methods",
+  "answer": "A"
+},
+{
+  "id": 39,
+  "question": "Morphological operations",
+  "A": "Morphological operations process image structures based on shape characteristics",
+  "B": "Morphological operations estimate object motion using recursive temporal alignment techniques",
+  "C": "Morphological operations reconstruct spatial geometry through projective calibration relationships",
+  "D": "Morphological operations compress image frequencies using adaptive transform decomposition",
+  "answer": "A"
+},
+{
+  "id": 40,
+  "question": "Erosion",
+  "A": "Erosion removes boundary pixels and shrinks foreground image regions",
+  "B": "Erosion estimates recursive optical flow through brightness propagation operations continuously",
+  "C": "Erosion reconstructs object depth using binocular disparity estimation equations",
+  "D": "Erosion compresses image textures using spectral transform coding techniques",
+  "answer": "A"
+},
+{
+  "id": 41,
+  "question": "Dilation",
+  "A": "Dilation expands foreground regions by adding pixels to object boundaries",
+  "B": "Dilation estimates object trajectories using recursive geometric alignment methods",
+  "C": "Dilation reconstructs spatial geometry through perspective projection relationships continuously",
+  "D": "Dilation compresses image information using cosine coefficient approximations",
+  "answer": "A"
+},
+{
+  "id": 42,
+  "question": "Opening",
+  "A": "Opening removes small foreground objects while preserving larger image structures",
+  "B": "Opening estimates recursive feature correspondences between video frames automatically",
+  "C": "Opening reconstructs scene depth through binocular stereo calibration equations",
+  "D": "Opening compresses texture frequencies using adaptive transform decomposition procedures",
+  "answer": "A"
+},
+{
+  "id": 43,
+  "question": "Closing",
+  "A": "Closing fills small holes and connects nearby foreground regions",
+  "B": "Closing estimates object motion using recursive temporal displacement calculations",
+  "C": "Closing reconstructs image geometry through perspective transformation equations continuously",
+  "D": "Closing compresses image structures using spectral approximation techniques automatically",
+  "answer": "A"
+},
+{
+  "id": 44,
+  "question": "Feature extraction",
+  "A": "Feature extraction identifies informative image characteristics for further analysis",
+  "B": "Feature extraction reconstructs object geometry using binocular projection relationships",
+  "C": "Feature extraction estimates recursive motion propagation between image frames",
+  "D": "Feature extraction compresses textures using adaptive cosine decomposition methods",
+  "answer": "A"
+},
+{
+  "id": 45,
+  "question": "Corner detection",
+  "A": "Corner detection identifies points with strong intensity variation in multiple directions",
+  "B": "Corner detection reconstructs spatial depth using geometric stereo correspondence analysis",
+  "C": "Corner detection estimates recursive object trajectories across video sequences",
+  "D": "Corner detection compresses image frequencies through adaptive transform coding procedures",
+  "answer": "A"
+},
+{
+  "id": 46,
+  "question": "Harris corner detector",
+  "A": "The Harris corner detector identifies stable corner features using local gradients",
+  "B": "The Harris corner detector reconstructs object geometry through perspective calibration equations",
+  "C": "The Harris corner detector estimates recursive optical flow between image frames",
+  "D": "The Harris corner detector compresses image structures using spectral approximation techniques",
+  "answer": "A"
+},
+{
+  "id": 47,
+  "question": "Template matching",
+  "A": "Template matching searches for image regions similar to a reference pattern",
+  "B": "Template matching reconstructs scene depth using binocular disparity transformations automatically",
+  "C": "Template matching estimates recursive feature motion through temporal propagation methods",
+  "D": "Template matching compresses image information using adaptive frequency decomposition",
+  "answer": "A"
+},
+{
+  "id": 48,
+  "question": "Optical flow",
+  "A": "Optical flow estimates apparent motion between consecutive image frames",
+  "B": "Optical flow reconstructs image geometry through projective transformation equations continuously",
+  "C": "Optical flow compresses texture information using cosine frequency approximation methods",
+  "D": "Optical flow performs image segmentation through adaptive clustering procedures automatically",
+  "answer": "A"
+},
+{
+  "id": 49,
+  "question": "Object recognition",
+  "A": "Object recognition identifies and classifies known objects within visual data",
+  "B": "Object recognition reconstructs spatial depth using recursive stereo calibration techniques",
+  "C": "Object recognition estimates motion trajectories through temporal displacement propagation",
+  "D": "Object recognition compresses image textures using spectral transform approximations",
+  "answer": "A"
+},
+{
+  "id": 50,
+  "question": "Computer vision",
+  "A": "Computer vision enables machines to interpret and analyze visual information",
+  "B": "Computer vision reconstructs audio signals through recursive frequency transformations automatically",
+  "C": "Computer vision estimates language syntax using sequential probability propagation methods",
+  "D": "Computer vision compresses numerical datasets using adaptive geometric approximations",
+  "answer": "A"
+}
+]

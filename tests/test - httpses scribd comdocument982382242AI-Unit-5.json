@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary objective of the Convolution Layer in a Convolutional Neural Network (CNN)?",
+    "A": "To flatten the input image",
+    "B": "To reduce the spatial size of the input image",
+    "C": "To perform element-wise multiplication of image arrays",
+    "D": "To extract high-level features from the input image",
+    "answer": "D"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following tasks is an example of computer vision?",
+    "A": "Rescaling an image",
+    "B": "Correcting brightness levels in an image",
+    "C": "Object detection in images or videos",
+    "D": "Changing tones of an image",
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "How is resolution typically expressed?",
+    "A": "By the number of pixels along the width and height, such as 1280×1024",
+    "B": "By the brightness level of each pixel, ranging from 0 to 255",
+    "C": "By the total number of pixels, such as 5 megapixels",
+    "D": "Both (a) and (c)",
+    "answer": "D"
+  },
+  {
+    "id": 4,
+    "question": "What is the core task of image classification?",
+    "A": "Identifying objects and their locations in images",
+    "B": "Segmenting objects into individual pixels",
+    "C": "Assigning an input image one label from a fixed set of categories",
+    "D": "Detecting instances of real-world objects in images",
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "What is the function of the Rectified Linear Unit (ReLU) layer in a CNN?",
+    "A": "To reduce the image size for more efficient processing",
+    "B": "To assign importance to various aspects/objects in the input image",
+    "C": "To get rid of negative numbers in the feature map and retain positive numbers",
+    "D": "To perform the convolution operation on the input image",
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "question": "Object detection and handwriting recognition are examples of tasks commonly associated with:",
+    "A": "Computer vision",
+    "B": "Image processing",
+    "C": "Both computer vision and image processing",
+    "D": "Neither computer vision nor image processing",
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "question": "What does the pixel value represent in an image?",
+    "A": "Width of the pixel",
+    "B": "Brightness or color of the pixel",
+    "C": "Height of the pixel",
+    "D": "Resolution of the pixel",
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "In the byte image format, what is the range of possible pixel values?",
+    "A": "0 to 10",
+    "B": "0 to 100",
+    "C": "0 to 1000",
+    "D": "0 to 255",
+    "answer": "D"
+  },
+  {
+    "id": 9,
+    "question": "In a grayscale image, what does the darkest shade represent?",
+    "A": "Total presence of color",
+    "B": "Zero value of pixel",
+    "C": "Lightest shade of gray",
+    "D": "Maximum pixel value",
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "In an RGB image, what does a pixel with an intensity value of 0 represent?",
+    "A": "Full presence of color",
+    "B": "No presence of color",
+    "C": "Maximum brightness level",
+    "D": "Minimum brightness level",
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "question": "What is the fundamental technology behind the development of autonomous vehicles like self-driving cars?",
+    "A": "Image Processing",
+    "B": "Computer Vision",
+    "C": "Data Science",
+    "D": "Machine Learning",
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "question": "Which no-code AI tool works with image classification and automatically finds the most optimal model to classify images?",
+    "A": "Teachable Machine",
+    "B": "Lobe.ai",
+    "C": "TensorFlow.js",
+    "D": "Orange Data Mining",
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "question": "What is a pixel in a digital image?",
+    "A": "A unit of memory storage",
+    "B": "A picture element, the smallest unit of information that makes up a picture",
+    "C": "The resolution of the image",
+    "D": "The color channel of the image",
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "question": "What is the main difference between image processing and computer vision?",
+    "A": "Image processing is a superset of computer vision",
+    "B": "Computer vision is a superset of image processing",
+    "C": "They are the same thing",
+    "D": "Image processing is only for grayscale images, while computer vision is for RGB images",
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of the pooling layer in a CNN?",
+    "A": "To increase the spatial size of the feature map",
+    "B": "To reduce the spatial size and make the image more manageable",
+    "C": "To introduce non-linearity to the feature map",
+    "D": "To classify the image into a label",
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "question": "What is the main characteristic of a good feature in an image for computer vision tasks?",
+    "A": "It is a flat, uniform surface",
+    "B": "It is an edge",
+    "C": "It is a corner or a point that is unique and looks different from various angles",
+    "D": "It has a pixel value of 255",
+    "answer": "C"
+  },
+  {
+    "id": 17,
+    "question": "What does the Kernel represent in the convolution operation?",
+    "A": "The input image",
+    "B": "The output image",
+    "C": "A matrix that is slid across the image to apply a filter",
+    "D": "The final classification label",
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "What is the output color when the RGB values are R=0, G=0, and B=0?",
+    "A": "White",
+    "B": "Red",
+    "C": "Black",
+    "D": "Blue",
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "question": "Which computer vision task involves detecting objects and then giving a label to each pixel based on that object's category?",
+    "A": "Classification",
+    "B": "Object Detection",
+    "C": "Classification + Localization",
+    "D": "Instance Segmentation",
+    "answer": "D"
+  },
+  {
+    "id": 20,
+    "question": "According to the document, what happens to the output image size after performing a standard convolution operation without padding?",
+    "A": "It becomes larger",
+    "B": "It becomes smaller",
+    "C": "It remains the same size",
+    "D": "It is flattened into a vector",
+    "answer": "B"
+  },
+  {
+    "id": 21,
+    "question": "What is the range of possible pixel values for an 8-bit integer representation?",
+    "A": "0 to 127",
+    "B": "0 to 255",
+    "C": "0 to 511",
+    "D": "0 to 1023",
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "question": "Which layer in a CNN is responsible for classifying the image into a final label?",
+    "A": "Convolutional Layer",
+    "B": "ReLU Layer",
+    "C": "Pooling Layer",
+    "D": "Fully Connected Layer",
+    "answer": "D"
+  },
+  {
+    "id": 23,
+    "question": "Which application of computer vision uses it to identify facial dynamics to apply digital effects?",
+    "A": "Facial Recognition for security",
+    "B": "Self-Driving Cars",
+    "C": "Face Filters in apps like Snapchat",
+    "D": "Google's Search by Image",
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "question": "In an RGB image, how many channels are there?",
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four",
+    "answer": "C"
+  },
+  {
+    "id": 25,
+    "question": "What is the purpose of the ReLU layer?",
+    "A": "To make the image grayscale",
+    "B": "To make color changes more obvious and abrupt",
+    "C": "To reduce the number of pixels",
+    "D": "To increase the image size",
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "question": "A 5-megapixel camera captures an image. What does this number represent?",
+    "A": "The size of a single pixel",
+    "B": "The brightness of the image",
+    "C": "The total number of pixels in the image",
+    "D": "The number of color channels",
+    "answer": "C"
+  },
+  {
+    "id": 27,
+    "question": "What is the primary use of convolution in a Convolutional Neural Network (CNN)?",
+    "A": "To change the color of the image",
+    "B": "To apply filters for image editing",
+    "C": "To extract features from the images",
+    "D": "To flatten the image into a vector",
+    "answer": "C"
+  },
+  {
+    "id": 28,
+    "question": "The process of giving each pixel a label based on the category of the object it belongs to is called:",
+    "A": "Image Classification",
+    "B": "Object Detection",
+    "C": "Instance Segmentation",
+    "D": "Localization",
+    "answer": "C"
+  },
+  {
+    "id": 29,
+    "question": "What is the output color when the RGB values are R=255, G=255, and B=255?",
+    "A": "Black",
+    "B": "White",
+    "C": "Green",
+    "D": "Blue",
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is not a layer in a Convolutional Neural Network?",
+    "A": "Rectified Linear Unit (ReLU) Layer",
+    "B": "Convolutional Layer",
+    "C": "Flattening Layer",
+    "D": "Fully Connected Layer",
+    "answer": "C"
+  },
+  {
+    "id": 31,
+    "question": "What is the key difference between Object Detection and Classification + Localization?",
+    "A": "Object Detection is for single objects, while Classification + Localization is for multiple objects.",
+    "B": "Object Detection is a simpler task.",
+    "C": "Object Detection is for multiple objects, while Classification + Localization is for single objects.",
+    "D": "There is no difference between them.",
+    "answer": "C"
+  },
+  {
+    "id": 32,
+    "question": "What is the first layer of a CNN?",
+    "A": "Pooling Layer",
+    "B": "Fully Connected Layer",
+    "C": "Convolutional Layer",
+    "D": "ReLU Layer",
+    "answer": "C"
+  },
+  {
+    "id": 33,
+    "question": "When performing convolution, if you want the output image to be the exact same size as the input image, what technique should you use?",
+    "A": "Max Pooling",
+    "B": "Padding with zero-value pixels",
+    "C": "Average Pooling",
+    "D": "Reducing the kernel size",
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "question": "What is the purpose of the Fully Connected Layer in a CNN?",
+    "A": "To perform convolution",
+    "B": "To reduce the image size",
+    "C": "To classify the output based on features",
+    "D": "To remove negative values",
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "question": "Which term is used interchangeably with Feature Map in CNNs?",
+    "A": "Kernel",
+    "B": "Activation Map",
+    "C": "Pixel Array",
+    "D": "Convolutional Layer",
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "question": "In the context of computer vision, which of the following is a key application in the retail industry?",
+    "A": "Facial Recognition for attendance systems",
+    "B": "Self-Driving Cars",
+    "C": "Inventory Management and tracking customer movements",
+    "D": "Medical Imaging for 3D models",
+    "answer": "C"
+  },
+  {
+    "id": 37,
+    "question": "What is the core idea of computer vision as it relates to human intelligence?",
+    "A": "To give computers the ability to think like humans.",
+    "B": "To enable computers to see, observe, and make sense of visual data.",
+    "C": "To allow computers to analyze textual data.",
+    "D": "To help computers with data analysis and statistics.",
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "question": "How is a grayscale image stored inside a computer?",
+    "A": "As three separate channels for R, G, and B",
+    "B": "As a single plane of a 2D array of pixels",
+    "C": "As a vector of pixel values",
+    "D": "As a one-dimensional array",
+    "answer": "B"
+  },
+  {
+    "id": 39,
+    "question": "What is the TensorFlow.js framework used by Teachable Machine?",
+    "A": "A Python library for machine learning",
+    "B": "A web-based tool for AI",
+    "C": "A framework that Teachable Machine runs on top of",
+    "D": "An operating system for AI tools",
+    "answer": "C"
+  },
+  {
+    "id": 40,
+    "question": "What happens in the Max Pooling operation?",
+    "A": "The average value from the portion of the image is returned.",
+    "B": "The maximum value from the portion of the image is returned.",
+    "C": "All pixel values are set to their maximum (255).",
+    "D": "All pixel values are set to zero.",
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "question": "What is the primary role of computer vision in medical imaging?",
+    "A": "To take 2D scan images",
+    "B": "To create and analyze images and assist doctors with interpretation",
+    "C": "To replace doctors in medical diagnosis",
+    "D": "To solely convert 2D scans into 3D models",
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "question": "How does computer vision contribute to self-driving cars?",
+    "A": "By providing entertainment systems.",
+    "B": "By identifying objects, getting navigational routes, and environment monitoring.",
+    "C": "By controlling the car's speed.",
+    "D": "By managing fuel consumption.",
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "question": "Which of these is a no-code AI tool mentioned in the PDF?",
+    "A": "Photoshop",
+    "B": "Instagram",
+    "C": "Teachable Machine",
+    "D": "Python",
+    "answer": "C"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is an example of an image processing task?",
+    "A": "Object detection",
+    "B": "Rescaling an image",
+    "C": "Facial recognition",
+    "D": "Self-driving cars",
+    "answer": "B"
+  },
+  {
+    "id": 45,
+    "question": "How does a computer store an RGB image?",
+    "A": "As a single 2D array of pixels.",
+    "B": "As three different channels (R, G, B) combined.",
+    "C": "As a series of grayscale images.",
+    "D": "By converting it to a black and white image.",
+    "answer": "B"
+  },
+  {
+    "id": 46,
+    "question": "What is the main benefit of the pooling layer in a CNN?",
+    "A": "It enhances the color of the image.",
+    "B": "It makes the image more resistant to small transformations.",
+    "C": "It increases the number of features.",
+    "D": "It makes the image resolution higher.",
+    "answer": "B"
+  },
+  {
+    "id": 47,
+    "question": "Why are corners considered good features in image processing?",
+    "A": "They are flat and uniform.",
+    "B": "They look the same wherever you move them.",
+    "C": "They are unique and look different when a patch is moved.",
+    "D": "They are always bright.",
+    "answer": "C"
+  },
+  {
+    "id": 48,
+    "question": "What is the range of values for a pixel in a byte image?",
+    "A": "128 to 127",
+    "B": "0 to 255",
+    "C": "0 to 100",
+    "D": "1 to 256",
+    "answer": "B"
+  },
+  {
+    "id": 49,
+    "question": "What is the main purpose of the Convolutional Neural Network (CNN)?",
+    "A": "To provide an input image to an algorithm.",
+    "B": "To perform simple image editing.",
+    "C": "To assign importance to different parts of an image to differentiate objects.",
+    "D": "To create a grayscale version of an image.",
+    "answer": "C"
+  },
+  {
+    "id": 50,
+    "question": "What is the relationship between AI and Computer Vision?",
+    "A": "Computer vision is a subfield of AI.",
+    "B": "AI is a subfield of computer vision.",
+    "C": "They are two completely separate fields.",
+    "D": "They are the same thing.",
+    "answer": "A"
+  }
+]

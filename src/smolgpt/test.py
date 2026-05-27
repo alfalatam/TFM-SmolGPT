@@ -6,6 +6,8 @@ from smolgpt.tokenizer import Tokenizer
 from smolgpt.sample import load_model,setup_device
 from types import SimpleNamespace
 
+import random
+
 # Path
 PATH = "tests/test.json"
 
@@ -79,10 +81,16 @@ def main():
     tok = Tokenizer("data/tok4096.model")
     ctx = setup_device(args)
     model =load_model(args)
+    
+    # conjuntos randoms de preguntas
+    NUM_QUESTIONS = 100
     questions = load_test()
+    questions = random.sample(questions,NUM_QUESTIONS)
+    
+    
     top1,top2= 0,0
     
-    print("\n ========== STARTING TEST===============")
+    print(f"\n========= STARTING TEST ({NUM_QUESTIONS} QUESTIONS) =============")
     for question in questions:
         pred,best2,margin,scores = eval_one_question(
         model,tok,ctx,args.device,question)

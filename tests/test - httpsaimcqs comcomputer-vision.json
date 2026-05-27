@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "question": "What is computer vision?",
+    "A": "The study of computer graphics",
+    "B": "The study of computer networks",
+    "C": "The study of algorithms for analyzing and interpreting visual data",
+    "D": "The study of computer hardware architecture",
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is not a fundamental task in computer vision?",
+    "A": "Object detection",
+    "B": "Image classification",
+    "C": "Speech recognition",
+    "D": "Image segmentation",
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "Which technique is commonly used for edge detection in images?",
+    "A": "Fourier transform",
+    "B": "Histogram equalization",
+    "C": "Canny edge detection",
+    "D": "Gaussian blur",
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following algorithms is commonly used for image classification?",
+    "A": "K-means clustering",
+    "B": "Decision trees",
+    "C": "Convolutional Neural Networks (CNN)",
+    "D": "Support Vector Machines (SVM)",
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "Which concept is used to represent the transformation from a 3D scene to a 2D image?",
+    "A": "Perspective projection",
+    "B": "Affine transformation",
+    "C": "Euler angles",
+    "D": "Homography",
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "Which technique is used to detect and track objects in a sequence of frames?",
+    "A": "Optical flow",
+    "B": "Template matching",
+    "C": "Harris corner detection",
+    "D": "Scale-invariant feature transform (SIFT)",
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "question": "Which metric is commonly used to evaluate the performance of object detection algorithms?",
+    "A": "Precision",
+    "B": "Recall",
+    "C": "F1 score",
+    "D": "All of the above",
+    "answer": "D"
+  },
+  {
+    "id": 8,
+    "question": "Which technique is used to remove noise from images while preserving important details?",
+    "A": "Median filtering",
+    "B": "Sobel operator",
+    "C": "Histogram equalization",
+    "D": "Laplacian of Gaussian (LoG) filter",
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "Which algorithm is commonly used for image segmentation?",
+    "A": "K-means clustering",
+    "B": "Depth-first search",
+    "C": "Gaussian blur",
+    "D": "Fourier transform",
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "question": "Which technique is used to recognize and understand text in images or videos?",
+    "A": "Optical character recognition (OCR)",
+    "B": "Motion detection",
+    "C": "Feature extraction",
+    "D": "Image stitching",
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is a popular pre-trained deep learning model for image classification?",
+    "A": "AlexNet",
+    "B": "K-means",
+    "C": "Random Forests",
+    "D": "Principal Component Analysis (PCA)",
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "Which technique is used to estimate the camera's pose and reconstruct the 3D structure of a scene?",
+    "A": "Depth estimation",
+    "B": "Stereo vision",
+    "C": "Structure from Motion (SfM)",
+    "D": "Texture mapping",
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "question": "Which concept is used to represent the local features of an image that are invariant to scale and rotation?",
+    "A": "Hough transform",
+    "B": "Histogram of Oriented Gradients (HOG)",
+    "C": "Scale-invariant feature transform (SIFT)",
+    "D": "Eigenfaces",
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "question": "Which technique is used to align two or more images to create a single panoramic image?",
+    "A": "Image segmentation",
+    "B": "Template matching",
+    "C": "Image stitching",
+    "D": "Image compression",
+    "answer": "C"
+  },
+  {
+    "id": 15,
+    "question": "Which method is used to generate realistic images by learning from a large dataset?",
+    "A": "GANs (Generative Adversarial Networks)",
+    "B": "Random Forests",
+    "C": "K-means clustering",
+    "D": "Principal Component Analysis (PCA)",
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "question": "Which algorithm is commonly used for face recognition?",
+    "A": "K-means clustering",
+    "B": "Decision trees",
+    "C": "Support Vector Machines (SVM)",
+    "D": "DeepFace",
+    "answer": "D"
+  },
+  {
+    "id": 17,
+    "question": "Which technique is used to estimate the depth information of a scene from a single image?",
+    "A": "Image segmentation",
+    "B": "Depth from focus",
+    "C": "Depth from motion",
+    "D": "Structure from Motion (SfM)",
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "Which technique is used to recognize and track human body parts in images or videos?",
+    "A": "Histogram of Oriented Gradients (HOG)",
+    "B": "Optical flow",
+    "C": "Haar cascades",
+    "D": "SURF (Speeded-Up Robust Features)",
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "question": "Which technique is used to generate a compact representation of an image by preserving its important features?",
+    "A": "Histogram equalization",
+    "B": "Principal Component Analysis (PCA)",
+    "C": "Fourier transform",
+    "D": "Median filtering",
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Which algorithm is commonly used for object detection in images?",
+    "A": "K-means clustering",
+    "B": "Random Forests",
+    "C": "Haar cascades",
+    "D": "Support Vector Machines (SVM)",
+    "answer": "C"
+  },
+  {
+    "id": 21,
+    "question": "Which technique is used to detect and track facial landmarks in images or videos?",
+    "A": "Principal Component Analysis (PCA)",
+    "B": "Optical flow",
+    "C": "Active Shape Models (ASMs)",
+    "D": "Histogram of Oriented Gradients (HOG)",
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "question": "Which method is used to represent colors in digital images?",
+    "A": "RGB (Red, Green, Blue)",
+    "B": "HSV (Hue, Saturation, Value)",
+    "C": "CMYK (Cyan, Magenta, Yellow, Black)",
+    "D": "All of the above",
+    "answer": "D"
+  },
+  {
+    "id": 23,
+    "question": "Which technique is used to detect and recognize objects based on their geometric shapes?",
+    "A": "Contour detection",
+    "B": "Texture analysis",
+    "C": "Blob detection",
+    "D": "Edge detection",
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "question": "Which algorithm is commonly used for image registration, aligning two or more images?",
+    "A": "K-means clustering",
+    "B": "Optical flow",
+    "C": "SURF (Speeded-Up Robust Features)",
+    "D": "RANSAC (Random Sample Consensus)",
+    "answer": "D"
+  },
+  {
+    "id": 25,
+    "question": "Which technique is used to classify images based on visual similarity?",
+    "A": "Image retrieval",
+    "B": "Semantic segmentation",
+    "C": "Image captioning",
+    "D": "Image synthesis",
+    "answer": "A"
+  },
+  {
+    "id": 26,
+    "question": "Which concept is used to represent the geometric transformations of objects in an image?",
+    "A": "Homography",
+    "B": "Histogram equalization",
+    "C": "Fourier transform",
+    "D": "Canny edge detection",
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "question": "Which technique is used to remove the illumination variations in images?",
+    "A": "Image sharpening",
+    "B": "Histogram equalization",
+    "C": "Histogram matching",
+    "D": "Image denoising",
+    "answer": "C"
+  },
+  {
+    "id": 28,
+    "question": "Which algorithm is commonly used for image super-resolution, enhancing the resolution of an image?",
+    "A": "K-means clustering",
+    "B": "Decision trees",
+    "C": "Support Vector Machines (SVM)",
+    "D": "Deep learning-based models",
+    "answer": "D"
+  },
+  {
+    "id": 29,
+    "question": "Which technique is used to detect and recognize objects based on their texture patterns?",
+    "A": "Edge detection",
+    "B": "Histogram equalization",
+    "C": "Texture analysis",
+    "D": "Image compression",
+    "answer": "C"
+  },
+  {
+    "id": 30,
+    "question": "Which concept is used to represent the 3D shape of an object using a set of 2D images?",
+    "A": "Image alignment",
+    "B": "Depth estimation",
+    "C": "Shape from Shading",
+    "D": "Structure from Motion (SfM)",
+    "answer": "D"
+  }
+]

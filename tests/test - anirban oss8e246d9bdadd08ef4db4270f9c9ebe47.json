@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "question": "What is computer vision primarily concerned with?",
+    "A": "Voice recognition",
+    "B": "Understanding and processing images and videos",
+    "C": "Solving mathematical problems",
+    "D": "Developing video games",
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is a popular computer vision library in Python?",
+    "A": "TensorFlow",
+    "B": "OpenCV",
+    "C": "Pandas",
+    "D": "NumPy",
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "What is a key component of many computer vision algorithms?",
+    "A": "Feature extraction",
+    "B": "Internet connection",
+    "C": "Audio processing",
+    "D": "Text analysis",
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following techniques can be used for image segmentation?",
+    "A": "k-means clustering",
+    "B": "Fourier analysis",
+    "C": "Linear regression",
+    "D": "Support vector machines",
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "question": "What is the main goal of object detection in computer vision?",
+    "A": "Identifying the presence of objects in images or videos",
+    "B": "Classifying objects based on their shape",
+    "C": "Predicting the trajectory of moving objects",
+    "D": "Enhancing the quality of images and videos",
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "What is the primary purpose of using convolutional neural networks (CNNs) in computer vision?",
+    "A": "To analyze text documents",
+    "B": "To recognize patterns in images or videos",
+    "C": "To predict stock market trends",
+    "D": "To synthesize new images or videos",
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is a popular pre-trained model for image classification?",
+    "A": "LSTM",
+    "B": "GPT-4",
+    "C": "ResNet",
+    "D": "Transformer",
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "question": "In object detection, what is the purpose of a bounding box?",
+    "A": "To provide a rough estimate of the object's position and size",
+    "B": "To increase the contrast of the object",
+    "C": "To eliminate background noise in the image",
+    "D": "To calculate the distance between the camera and the object",
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "What does the term semantic segmentation refer to in computer vision?",
+    "A": "Assigning a class label to each pixel in an image",
+    "B": "Dividing an image into rectangular regions based on color",
+    "C": "Grouping pixels based on their spatial proximity",
+    "D": "Identifying objects in an image based on their textual descriptions",
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "question": "What is the role of a loss function in training a neural network?",
+    "A": "To evaluate the performance of the network during training",
+    "B": "To generate new training data",
+    "C": "To determine the optimal learning rate",
+    "D": "To initialize the network's weights and biases",
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is a common evaluation metric used in object detection tasks?",
+    "A": "Mean squared error (MSE)",
+    "B": "Precision and recall",
+    "C": "Mean average precision (mAP)",
+    "D": "Root mean squared error (RMSE)",
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following techniques can be used to reduce overfitting in a neural network?",
+    "A": "Dropout",
+    "B": "Adding more layers",
+    "C": "Increasing the learning rate",
+    "D": "Decreasing the batch size",
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "question": "What is the role of an R-CNN (Region-based Convolutional Neural Network) in computer vision?",
+    "A": "To generate realistic images from textual descriptions",
+    "B": "To predict the next frame in a video sequence",
+    "C": "To detect and classify objects in images using region proposals",
+    "D": "To perform text recognition in images",
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "question": "What is transfer learning in the context of deep learning and computer vision?",
+    "A": "Transferring knowledge from one domain to another",
+    "B": "Transferring weights between different layers of a neural network",
+    "C": "Transferring data between different neural networks during training",
+    "D": "Transferring control from a human operator to an autonomous system",
+    "answer": "A"
+  },
+  {
+    "id": 15,
+    "question": "What is the main difference between Instance Segmentation and Semantic Segmentation?",
+    "A": "Instance Segmentation assigns a unique label to each object, while Semantic Segmentation assigns the same label to all objects of the same class",
+    "B": "Instance Segmentation focuses on 2D images, while Semantic Segmentation focuses on 3D images",
+    "C": "Instance Segmentation uses bounding boxes, while Semantic Segmentation uses pixel-wise labels",
+    "D": "Instance Segmentation requires manual intervention, while Semantic Segmentation is fully automated",
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is a method for reducing dimensionality in computer vision and deep learning?",
+    "A": "k-means clustering",
+    "B": "Principal Component Analysis (PCA)",
+    "C": "Decision Trees",
+    "D": "Support Vector Machines (SVM)",
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "question": "What is an autoencoder used for in computer vision tasks?",
+    "A": "To detect and classify objects in images",
+    "B": "To generate new images based on existing ones",
+    "C": "To learn efficient data representations or compress data",
+    "D": "To predict the next frame in a video sequence",
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "What is the primary goal of Generative Adversarial Networks (GANs) in computer vision?",
+    "A": "To generate realistic and diverse images or videos",
+    "B": "To perform image recognition and classification",
+    "C": "To remove noise from images or videos",
+    "D": "To predict the motion of objects in images or videos",
+    "answer": "A"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following algorithms is most commonly used in optical character recognition (OCR)?",
+    "A": "YOLO",
+    "B": "Mask R-CNN",
+    "C": "Tesseract",
+    "D": "Inception",
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "question": "In the context of deep learning, what is the purpose of using batch normalization?",
+    "A": "To speed up the training process and improve the model's performance",
+    "B": "To initialize the weights and biases of a neural network",
+    "C": "To prevent overfitting by randomly dropping out neurons",
+    "D": "To split the input data into smaller, more manageable chunks",
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following techniques can be used to improve the performance of a neural network in computer vision tasks?",
+    "A": "Data augmentation",
+    "B": "Feature selection",
+    "C": "Decision tree pruning",
+    "D": "Feature extraction",
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "question": "What is the purpose of using padding in a convolutional neural network (CNN)?",
+    "A": "To speed up the training process",
+    "B": "To maintain the spatial dimensions of the input image after applying the convolutional operation",
+    "C": "To reduce the computational complexity of the model",
+    "D": "To prevent overfitting by introducing randomness into the network",
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "question": "In computer vision, what does the term optical flow refer to?",
+    "A": "The change in the position of an object in consecutive frames of a video",
+    "B": "The process of capturing images using a camera",
+    "C": "The intensity of light reflected by objects in a scene",
+    "D": "The depth information of a 3D scene captured using a 2D camera",
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "question": "What is the main purpose of a max-pooling layer in a convolutional neural network (CNN)?",
+    "A": "To increase the network's sensitivity to high-frequency information",
+    "B": "To reduce the spatial dimensions of the feature maps, resulting in a smaller and more efficient representation",
+    "C": "To add non-linearity to the network",
+    "D": "To combine the outputs of multiple convolutional layers",
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is an example of unsupervised learning in computer vision?",
+    "A": "Image classification using a pre-trained model",
+    "B": "Training a GAN to generate new images",
+    "C": "Object detection using a bounding box regression model",
+    "D": "Semantic segmentation using a fully convolutional network",
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "question": "In the context of computer vision, what is the primary purpose of using a sliding window approach?",
+    "A": "To scan an image for specific patterns or features",
+    "B": "To create an animation from a sequence of images",
+    "C": "To stitch together multiple images to create a panoramic image",
+    "D": "To smooth out the noise in an image",
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "question": "What is the role of an anchor box in object detection models such as YOLO or Faster R-CNN?",
+    "A": "To provide initial bounding box predictions for objects of different shapes and sizes",
+    "B": "To reduce the spatial dimensions of the feature maps",
+    "C": "To combine the outputs of multiple convolutional layers",
+    "D": "To provide a reference point for optical flow calculations",
+    "answer": "A"
+  },
+  {
+    "id": 28,
+    "question": "Which of the following loss functions is commonly used in semantic segmentation tasks?",
+    "A": "Mean Squared Error (MSE)",
+    "B": "Cross-Entropy Loss",
+    "C": "Hinge Loss",
+    "D": "Huber Loss",
+    "answer": "B"
+  },
+  {
+    "id": 29,
+    "question": "What is the primary advantage of using a Siamese network in computer vision tasks?",
+    "A": "To enhance the resolution of an image",
+    "B": "To measure the similarity or dissimilarity between two images",
+    "C": "To predict the motion of objects in consecutive video frames",
+    "D": "To recognize and generate specific styles in images",
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "In the context of image processing, what does the term morphological operations refer to?",
+    "A": "Techniques for modifying the shape and structure of objects in an image",
+    "B": "Methods for reducing the size of image files without significant loss of quality",
+    "C": "Algorithms for detecting and tracking objects in a video sequence",
+    "D": "Techniques for enhancing the contrast and brightness of an image",
+    "answer": "A"
+  },
+  {
+    "id": 31,
+    "question": "Which of the following best describes the process of backpropagation in the context of training neural networks?",
+    "A": "A technique for initializing the weights and biases of a neural network",
+    "B": "A regularization method used to prevent overfitting",
+    "C": "An optimization algorithm used to minimize the loss function",
+    "D": "A method for computing the gradient of the loss function with respect to each weight and bias",
+    "answer": "D"
+  },
+  {
+    "id": 32,
+    "question": "In the context of computer vision, what is the primary purpose of a Region Proposal Network (RPN) in models like Faster R-CNN?",
+    "A": "To generate regions of interest (ROIs) that potentially contain objects",
+    "B": "To classify objects within the regions of interest",
+    "C": "To refine the bounding box coordinates of the detected objects",
+    "D": "To estimate the depth of objects in an image",
+    "answer": "A"
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is a common application of stereo vision in computer vision?",
+    "A": "Generating 3D models of objects or scenes",
+    "B": "Tracking the movement of objects in a video",
+    "C": "Improving the resolution of an image",
+    "D": "Removing noise from an image",
+    "answer": "A"
+  },
+  {
+    "id": 34,
+    "question": "In the context of image recognition, which of the following methods is commonly used to mitigate the problem of illumination variations?",
+    "A": "Image binarization",
+    "B": "Histogram equalization",
+    "C": "Edge detection",
+    "D": "Feature extraction",
+    "answer": "B"
+  },
+  {
+    "id": 35,
+    "question": "In computer vision, what is the main goal of instance segmentation?",
+    "A": "To classify each pixel in an image as belonging to a specific object class",
+    "B": "To detect and localize objects within an image using bounding boxes",
+    "C": "To separate and identify individual instances of objects within an image, including pixel-wise classification",
+    "D": "To track the movement of objects in consecutive frames of a video",
+    "answer": "C"
+  },
+  {
+    "id": 36,
+    "question": "In the context of deep learning, what is the primary purpose of using dropout as a regularization technique?",
+    "A": "To speed up the training process",
+    "B": "To reduce the model's sensitivity to noise in the input data",
+    "C": "To prevent overfitting by randomly dropping some neurons during training",
+    "D": "To increase the model's capacity by adding more layers",
+    "answer": "C"
+  },
+  {
+    "id": 37,
+    "question": "Which of the following algorithms is an example of a non-parametric method used in computer vision?",
+    "A": "Support Vector Machines (SVM)",
+    "B": "k-Nearest Neighbors (k-NN)",
+    "C": "Convolutional Neural Networks (CNN)",
+    "D": "Principal Component Analysis (PCA)",
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "question": "In the field of computer vision, what is the primary purpose of image registration?",
+    "A": "To align two or more images of the same scene, typically taken at different times, from different viewpoints, or with different sensors",
+    "B": "To create a composite image by blending multiple images together",
+    "C": "To remove artifacts and noise from an image",
+    "D": "To estimate the 3D structure of a scene from multiple 2D images",
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "question": "Which of the following best describes the Bag-of-Words (BoW) model in the context of computer vision?",
+    "A": "A method for tracking objects in a video",
+    "B": "A technique for representing images as a histogram of visual words",
+    "C": "A type of neural network architecture for processing sequential data",
+    "D": "A method for enhancing the resolution of an image",
+    "answer": "B"
+  },
+  {
+    "id": 40,
+    "question": "Which of the following techniques can be used to perform image inpainting, the process of filling in missing or corrupted parts of an image?",
+    "A": "Optical flow estimation",
+    "B": "Image registration",
+    "C": "Image stitching",
+    "D": "Patch-based methods",
+    "answer": "D"
+  },
+  {
+    "id": 41,
+    "question": "Which of the following techniques is an example of a global feature descriptor in computer vision?",
+    "A": "SIFT (Scale-Invariant Feature Transform)",
+    "B": "GIST (Generalized Search Tree)",
+    "C": "HOG (Histogram of Oriented Gradients)",
+    "D": "LBP (Local Binary Patterns)",
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "question": "What is the primary purpose of using a Gaussian pyramid in computer vision tasks?",
+    "A": "To perform image segmentation",
+    "B": "To detect corners and keypoints in an image",
+    "C": "To speed up the training of deep learning models",
+    "D": "To create a multi-scale representation of an image",
+    "answer": "D"
+  },
+  {
+    "id": 43,
+    "question": "Which of the following is NOT an advantage of using deep learning-based methods for computer vision tasks?",
+    "A": "Automatic feature extraction",
+    "B": "High accuracy and performance",
+    "C": "Low computational requirements",
+    "D": "Ability to model complex patterns and representations",
+    "answer": "C"
+  },
+  {
+    "id": 44,
+    "question": "In computer vision, which of the following algorithms is primarily used for detecting corners and junctions in an image?",
+    "A": "Harris Corner Detector",
+    "B": "Canny Edge Detector",
+    "C": "Mean Shift Clustering",
+    "D": "K-means Clustering",
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "question": "In the context of computer vision, what is the primary goal of semantic segmentation?",
+    "A": "To classify each pixel in an image as belonging to a specific object class",
+    "B": "To detect and localize objects within an image using bounding boxes",
+    "C": "To separate and identify individual instances of objects within an image, including pixel-wise classification",
+    "D": "To track the movement of objects in consecutive frames of a video",
+    "answer": "A"
+  },
+  {
+    "id": 46,
+    "question": "In the field of computer vision, which of the following techniques is commonly used for feature matching between images?",
+    "A": "Image stitching",
+    "B": "Image registration",
+    "C": "Convolutional neural networks",
+    "D": "Descriptor matching",
+    "answer": "D"
+  },
+  {
+    "id": 47,
+    "question": "What is the main purpose of using non-maximum suppression in object detection algorithms?",
+    "A": "To eliminate false positives by comparing the detections with ground truth labels",
+    "B": "To reduce the number of detected bounding boxes by selecting the most likely ones and suppressing overlapping boxes",
+    "C": "To increase the sensitivity of the detector by considering multiple scales of the image",
+    "D": "To speed up the detection process by eliminating redundant computations",
+    "answer": "B"
+  },
+  {
+    "id": 48,
+    "question": "In the context of deep learning for computer vision, what does the term ReLU stand for?",
+    "A": "Rectified Linear Unit",
+    "B": "Recurrent Linear Unit",
+    "C": "Regularized Linear Unit",
+    "D": "Reduced Linear Unit",
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "question": "Which of the following best describes the concept of transfer learning in the context of deep learning for computer vision?",
+    "A": "Training a model on a large dataset and then fine-tuning it on a smaller, related dataset",
+    "B": "Using a pre-trained model to initialize the weights of a new model, and then training the new model on a different dataset",
+    "C": "Training a model on multiple tasks simultaneously to improve its performance on each task",
+    "D": "Transferring knowledge learned from one task to another without any additional training",
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "question": "In computer vision, which of the following is a common application of optical flow estimation?",
+    "A": "Image stitching",
+    "B": "Image denoising",
+    "C": "Image inpainting",
+    "D": "Motion estimation",
+    "answer": "D"
+  }
+]

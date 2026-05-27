@@ -1,0 +1,450 @@
+[
+  {
+    "id": 1,
+    "question": "What are the problems with using K-means segmentation in computer vision?",
+    "A": "K-means is sensitive to initial cluster centers and may converge to local optima",
+    "B": "K-means requires predefined spatial regions and may reduce segmentation consistency",
+    "C": "K-means depends on Euclidean distance and may fail with non-linear relationships",
+    "D": "K-means assumes fixed image distributions and may amplify noisy pixel outliers",
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "What does the window do in Mean Shift?",
+    "A": "The window estimates feature distributions through recursive spatial clustering procedures",
+    "B": "The window slides across pixels calculating local average intensity values continuously",
+    "C": "The window computes cosine frequency coefficients for image compression applications efficiently",
+    "D": "The window enlarges connected image regions using recursive dilation transformations repeatedly",
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "What is the RGB color space in computer vision?",
+    "A": "RGB represents images using red, green, and blue intensity component channels",
+    "B": "RGB describes image geometry using rotation, gradient, and brightness transformations",
+    "C": "RGB encodes image textures through regional grouping and binary segmentation methods",
+    "D": "RGB models spatial frequencies using recursive graph-based filtering representations",
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "question": "What does signal-to-noise ratio mean?",
+    "A": "Signal-to-noise ratio measures intensity variation relative to geometric image distortion",
+    "B": "Signal-to-noise ratio compares desired signal strength against unwanted background noise",
+    "C": "Signal-to-noise ratio estimates edge sharpness relative to texture smoothness levels",
+    "D": "Signal-to-noise ratio evaluates compression quality compared with original pixel detail",
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "What is the difference between corners and edges in computer vision?",
+    "A": "Corners describe smooth gradients while edges indicate isolated noisy image transitions",
+    "B": "Corners represent abrupt directional changes while edges represent intensity transitions",
+    "C": "Corners identify repetitive textures while edges correspond to homogeneous images regions",
+    "D": "Corners correspond to binary regions while edges define color histogram boundaries",
+    "answer": "B"
+  },
+  {
+    "id": 6,
+    "question": "What is RANSAC?",
+    "A": "RANSAC estimates image gradients by comparing neighboring directional intensity variations",
+    "B": "RANSAC identifies robust model parameters from noisy samples through random selection",
+    "C": "RANSAC segments image regions by clustering pixels with similar color distributions",
+    "D": "RANSAC extracts distinctive image descriptors for large-scale feature correspondence tasks",
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "What is the Sobel operator?",
+    "A": "The Sobel operator extracts feature descriptors using scale-invariant image representations",
+    "B": "The Sobel operator detects image gradients through horizontal and vertical convolutions",
+    "C": "The Sobel operator segments objects using recursive clustering and threshold estimation",
+    "D": "The Sobel operator reconstructs images through frequency-domain filtering transformations",
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "What is a non-linear filter?",
+    "A": "A non-linear filter modifies signals using transformations without proportional responses",
+    "B": "A non-linear filter modifies signals using only fixed proportional linear responses",
+    "C": "A non-linear filter estimates object boundaries through gradient-based edge accumulation",
+    "D": "A non-linear filter preserves spatial textures using adaptive histogram equalization strategies",
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "Why are SIFT, SURF, FAST, and ORB used as descriptors in computer vision?",
+    "A": "These descriptors estimate image brightness distributions across multi-scale segmentation regions",
+    "B": "These descriptors detect and describe distinctive image features for matching applications",
+    "C": "These descriptors reconstruct geometric surfaces through recursive spatial interpolation techniques",
+    "D": "These descriptors improve image compression using adaptive transform-domain quantization methods",
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "Why is a geometric transformation used in image registration?",
+    "A": "Geometric transformations align images captured under varying viewpoints and acquisition conditions",
+    "B": "Geometric transformations estimate image frequencies through recursive spectral decomposition methods",
+    "C": "Geometric transformations improve segmentation accuracy using adaptive clustering optimization procedures",
+    "D": "Geometric transformations reconstruct object textures through directional gradient interpolation models",
+    "answer": "A"
+  },
+   {
+    "id": 11,
+    "question": "How is Pixel used in computer vision?",
+    "A": "Pixels represent image points storing color information for visual processing tasks",
+    "B": "Pixels estimate geometric depth using stereo correspondence between multiple camera views",
+    "C": "Pixels describe motion trajectories through recursive temporal frame interpolation techniques",
+    "D": "Pixels compute frequency-domain transformations for image compression and reconstruction methods",
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "Explain DCT",
+    "A": "DCT estimates optical motion by analyzing temporal intensity variations across video frames",
+    "B": "DCT separates images into connected segmented regions using clustering-based similarity analysis",
+    "C": "DCT decomposes images into frequency components using weighted cosine function representations",
+    "D": "DCT enlarges image structures through morphological expansion using structuring element operations",
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "question": "What is the idea behind Spatial resolution?",
+    "A": "Spatial resolution measures image sharpness based on the number of contained pixels",
+    "B": "Spatial resolution estimates scene geometry through multi-view camera calibration procedures",
+    "C": "Spatial resolution computes motion vectors from temporal pixel intensity variations automatically",
+    "D": "Spatial resolution enhances image textures using adaptive convolution filtering operations repeatedly",
+    "answer": "A"
+  },
+  {
+    "id": 14,
+    "question": "Robustness",
+    "A": "Robustness refers to preserving image frequencies during compression and reconstruction processes",
+    "B": "Robustness describes a system’s ability to handle noise and varying image conditions",
+    "C": "Robustness estimates object depth using binocular image correspondence between viewpoints accurately",
+    "D": "Robustness identifies segmented image regions through recursive morphological transformation procedures",
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "question": "Why is Region growing useful?",
+    "A": "Region growing estimates optical motion through temporal brightness consistency constraints automatically",
+    "B": "Region growing expands connected regions from seed pixels based on similarity properties",
+    "C": "Region growing compresses image information using transform-domain frequency decomposition techniques efficiently",
+    "D": "Region growing computes geometric camera parameters through recursive projection optimization methods",
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "question": "Why is JPEG useful?",
+    "A": "JPEG estimates stereo disparity between viewpoints to recover scene depth information accurately",
+    "B": "JPEG enlarges image structures using morphological dilation and boundary enhancement operations",
+    "C": "JPEG reduces image file size while preserving acceptable visual image quality efficiently",
+    "D": "JPEG tracks moving objects by analyzing temporal brightness changes across video sequences",
+    "answer": "C"
+  },
+  {
+    "id": 17,
+  "question": "What is Optical flow?",
+  "A": "Optical flow estimates motion of objects or pixels between consecutive image frames",
+  "B": "Optical flow separates images into connected segmented regions using similarity measures",
+  "C": "Optical flow computes image frequencies through weighted cosine decomposition methods",
+  "D": "Optical flow enlarges image structures using recursive morphological transformations",
+  "answer": "A"
+  },
+  {
+    "id": 18,
+    "question": "What is Camera calibration?",
+    "A": "Camera calibration identifies image regions through clustering-based segmentation and grouping methods",
+    "B": "Camera calibration estimates intrinsic and extrinsic parameters of camera imaging systems",
+    "C": "Camera calibration computes object motion using temporal intensity consistency across video frames",
+    "D": "Camera calibration reduces image storage requirements using transform-based compression representations efficiently",
+    "answer": "B"
+  },
+  {
+    "id": 19,
+    "question": "What is Stereo vision?",
+    "A": "Stereo vision estimates scene depth using images captured from different viewpoints simultaneously",
+    "B": "Stereo vision modifies image structures through convolution-based filtering and enhancement operations repeatedly",
+    "C": "Stereo vision compresses image information using weighted cosine frequency decomposition techniques efficiently",
+    "D": "Stereo vision identifies image textures using recursive segmentation and clustering optimization procedures",
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "question": "What is Depth estimation?",
+    "A": "Depth estimation enlarges image structures using morphological expansion and dilation operations repeatedly",
+    "B": "Depth estimation predicts distances between scene objects and the observing camera system",
+    "C": "Depth estimation separates image regions through similarity-based clustering and grouping methods automatically",
+    "D": "Depth estimation extracts image frequencies through recursive cosine transformation procedures efficiently",
+    "answer": "B"
+  }, {
+    "id": 21,
+    "question": "How does K means work?",
+    "A": "K-means groups data points by iteratively assigning them to nearby cluster centroids",
+    "B": "K-means estimates object motion through temporal brightness consistency between frames",
+    "C": "K-means enlarges image structures using recursive morphological dilation operations repeatedly",
+    "D": "K-means extracts image frequencies using cosine-based transformation decomposition methods efficiently",
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "question": "What does the window do in Mean Shift?",
+    "A": "The window estimates local feature distributions through recursive spatial clustering operations",
+    "B": "The window slides across image regions computing average pixel values locally",
+    "C": "The window computes image frequencies using transform-domain cosine decomposition methods",
+    "D": "The window enlarges object boundaries through recursive morphological dilation procedures",
+    "answer": "B"
+},
+  {
+    "id": 23,
+    "question": "What is the idea behind Inverse filtering?",
+    "A": "Inverse filtering restores images by reversing filtering effects while preserving useful features",
+    "B": "Inverse filtering estimates motion vectors using temporal brightness variations across image frames",
+    "C": "Inverse filtering groups image pixels through clustering-based similarity optimization procedures repeatedly",
+    "D": "Inverse filtering enlarges image boundaries through morphological expansion using structuring elements",
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "question": "What is Structuring element?",
+    "A": "A structuring element estimates geometric depth using binocular image correspondence information accurately",
+    "B": "A structuring element is a predefined pattern used during morphological image operations",
+    "C": "A structuring element extracts image frequencies through recursive cosine transformation procedures efficiently",
+    "D": "A structuring element tracks object motion using temporal intensity consistency constraints automatically",
+    "answer": "B"
+  },
+  {
+  "id": 25,
+  "question": "Can you explain Defocus blur?",
+  "A": "Defocus blur occurs when an image is out of focus and details become indistinct",
+  "B": "Defocus blur estimates object trajectories through recursive motion consistency optimization techniques",
+  "C": "Defocus blur segments connected image regions using similarity-based clustering algorithms repeatedly",
+  "D": "Defocus blur enlarges object boundaries through adaptive morphological dilation transformations automatically",
+  "answer": "A"
+},
+  {
+    "id": 26,
+    "question": "Explain Shearing",
+    "A": "Shearing computes image frequencies through weighted cosine decomposition and transformation procedures efficiently",
+    "B": "Shearing applies transformations by sliding image regions while preserving relative orientations",
+    "C": "Shearing estimates stereo depth using geometric correspondence between camera viewpoints accurately",
+    "D": "Shearing tracks moving objects using recursive temporal brightness consistency constraints automatically",
+    "answer": "B"
+  },
+  {
+  "id": 26,
+  "question": "I don't understand Dynamic range",
+  "A": "Dynamic range measures object motion between consecutive image frames automatically",
+  "B": "Dynamic range describes the light intensity range captured between bright and dark regions",
+  "C": "Dynamic range enlarges image structures through recursive dilation operations automatically",
+  "D": "Dynamic range computes image frequencies using cosine decomposition methods efficiently",
+  "answer": "B"
+},
+  {
+    "id": 28,
+    "question": "What is the idea behind Reflectance?",
+    "A": "Reflectance analyzes how surfaces interact with light to identify material characteristics accurately",
+    "B": "Reflectance estimates image motion using recursive temporal brightness variation analysis methods",
+    "C": "Reflectance groups neighboring pixels using similarity-based segmentation and clustering procedures repeatedly",
+    "D": "Reflectance computes image frequencies through transform-domain cosine decomposition operations efficiently",
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "question": "Why is Robustness useful?",
+    "A": "Robustness computes image depth using stereo correspondence between different camera perspectives accurately",
+    "B": "Robustness allows systems to operate reliably despite noise and changing input conditions",
+    "C": "Robustness enlarges image structures through recursive dilation and boundary enhancement procedures automatically",
+    "D": "Robustness separates image regions using threshold-based clustering and segmentation optimization repeatedly",
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "What is Feature extraction?",
+    "A": "Feature extraction identifies important visual characteristics such as shapes and textures within images",
+    "B": "Feature extraction estimates geometric depth through recursive stereo matching optimization procedures automatically",
+    "C": "Feature extraction enlarges object boundaries using adaptive morphological dilation transformations repeatedly",
+    "D": "Feature extraction computes image frequencies through weighted cosine decomposition operations efficiently",
+    "answer": "A"
+  },
+  {
+    "id": 31,
+    "question": "How does Adaptive thresholding work?",
+    "A": "Adaptive thresholding estimates image motion using temporal brightness consistency between video frames",
+    "B": "Adaptive thresholding adjusts threshold values dynamically using local image intensity variations",
+    "C": "Adaptive thresholding enlarges image regions through recursive morphological expansion operations repeatedly",
+    "D": "Adaptive thresholding computes image frequencies using transform-domain cosine decomposition methods efficiently",
+    "answer": "B"
+  },
+  {
+    "id": 32,
+    "question": "Explain Zero crossing",
+    "A": "Zero crossing identifies locations where image signal values change sign across regions",
+    "B": "Zero crossing estimates stereo disparity through recursive correspondence matching optimization procedures automatically",
+    "C": "Zero crossing groups neighboring image pixels using clustering-based segmentation methods repeatedly",
+    "D": "Zero crossing enlarges object structures through adaptive morphological dilation transformations automatically",
+    "answer": "A"
+  },
+  {
+    "id": 33,
+    "question": "What is Split and merge segmentation?",
+    "A": "Split and merge segmentation estimates image depth using stereo geometric correspondence procedures",
+    "B": "Split and merge segmentation divides regions and later combines them into larger segments",
+    "C": "Split and merge segmentation enlarges object boundaries using recursive dilation transformations repeatedly",
+    "D": "Split and merge segmentation computes image frequencies through cosine decomposition operations efficiently",
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "question": "What is the idea behind Scaling?",
+    "A": "Scaling changes image dimensions while preserving the original geometric proportions consistently",
+    "B": "Scaling estimates object motion using recursive temporal intensity variation analysis automatically",
+    "C": "Scaling separates image regions using clustering-based segmentation optimization methods repeatedly",
+    "D": "Scaling enlarges boundaries through adaptive morphological dilation and expansion operations automatically",
+    "answer": "A"
+  },
+  {
+    "id": 35,
+    "question": "What is the idea behind Least squares?",
+    "A": "Least squares enlarges image structures through recursive morphological expansion operations repeatedly",
+    "B": "Least squares finds optimal fits by minimizing squared prediction error values globally",
+    "C": "Least squares estimates image motion through temporal brightness consistency constraints automatically",
+    "D": "Least squares computes image frequencies using weighted cosine decomposition procedures efficiently",
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "question": "I don't understand Seed points",
+    "A": "Seed points are initial locations used to guide segmentation and detection algorithms",
+    "B": "Seed points estimate image frequencies using recursive cosine decomposition transformation methods efficiently",
+    "C": "Seed points enlarge object boundaries through adaptive morphological dilation operations repeatedly automatically",
+    "D": "Seed points compute geometric depth using stereo image correspondence optimization procedures accurately",
+    "answer": "A"
+  },
+  {
+    "id": 37,
+    "question": "How does Cluster center work?",
+    "A": "Cluster centers represent average characteristics shared among grouped image data samples collectively",
+    "B": "Cluster centers estimate temporal object motion using recursive brightness variation constraints automatically",
+    "C": "Cluster centers enlarge connected structures through adaptive morphological dilation procedures repeatedly automatically",
+    "D": "Cluster centers compute image frequencies through weighted cosine decomposition operations efficiently repeatedly",
+    "answer": "A"
+  },
+  {
+    "id": 38,
+    "question": "I don't understand Neighborhood operations",
+    "A": "Neighborhood operations estimate object depth using stereo image correspondence procedures automatically",
+    "B": "Neighborhood operations analyze pixels around a local area to extract contextual information",
+    "C": "Neighborhood operations enlarge image structures using recursive morphological dilation operations repeatedly",
+    "D": "Neighborhood operations compute image frequencies through weighted cosine decomposition methods efficiently",
+    "answer": "B"
+  }, {
+    "id": 39,
+    "question": "Can you explain Signal independent noise?",
+    "A": "Signal independent noise consists of random fluctuations unrelated to the original signal",
+    "B": "Signal independent noise estimates motion vectors using temporal intensity consistency constraints",
+    "C": "Signal independent noise enlarges image structures through recursive dilation transformations automatically",
+    "D": "Signal independent noise computes image frequencies using cosine decomposition methods efficiently",
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "question": "What does YCbCr stand for?",
+    "A": "YCbCr represents geometric image transformations using brightness and rotational feature descriptors",
+    "B": "YCbCr separates luminance information from chrominance color components in digital images",
+    "C": "YCbCr estimates object motion using recursive temporal brightness variation procedures automatically",
+    "D": "YCbCr enlarges image structures through adaptive morphological expansion operations repeatedly",
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "question": "What is Point operations?",
+    "A": "Point operations process individual image points for analysis and manipulation tasks directly",
+    "B": "Point operations estimate geometric depth using recursive stereo correspondence optimization procedures",
+    "C": "Point operations enlarge image regions through recursive morphological dilation transformations automatically",
+    "D": "Point operations compute image frequencies using weighted cosine decomposition methods efficiently",
+    "answer": "A"
+  },
+  {
+    "id": 42,
+    "question": "What is Similarity metric?",
+    "A": "A similarity metric enlarges image regions through recursive morphological expansion procedures repeatedly",
+    "B": "A similarity metric measures how visually similar two images or objects appear",
+    "C": "A similarity metric estimates object trajectories using temporal intensity variation constraints automatically",
+    "D": "A similarity metric computes image frequencies using transform-domain cosine decomposition methods",
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "question": "Explain Nearest neighbor interpolation",
+    "A": "Nearest neighbor interpolation estimates pixel values using nearby neighboring image pixels directly",
+    "B": "Nearest neighbor interpolation computes object depth through recursive stereo matching procedures automatically",
+    "C": "Nearest neighbor interpolation enlarges image structures using adaptive dilation transformations repeatedly automatically",
+    "D": "Nearest neighbor interpolation extracts image frequencies using weighted cosine decomposition methods efficiently",
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "question": "Why is Bilinear interpolation useful?",
+    "A": "Bilinear interpolation estimates object trajectories using recursive temporal brightness consistency methods",
+    "B": "Bilinear interpolation smooths image transitions using neighboring pixel value averaging techniques",
+    "C": "Bilinear interpolation enlarges image boundaries through recursive morphological expansion operations automatically",
+    "D": "Bilinear interpolation computes image frequencies through weighted cosine decomposition methods efficiently",
+    "answer": "B"
+  },
+  {
+    "id": 45,
+    "question": "What does Median filtering mean?",
+    "A": "Median filtering replaces pixel values using neighboring median intensity information locally",
+    "B": "Median filtering estimates geometric depth using stereo image correspondence optimization procedures",
+    "C": "Median filtering enlarges image regions through recursive morphological dilation operations automatically",
+    "D": "Median filtering computes image frequencies using weighted cosine decomposition methods efficiently",
+    "answer": "A"
+  },
+  {
+    "id": 46,
+    "question": "Why is Gradient magnitude useful?",
+    "A": "Gradient magnitude enlarges image structures through recursive morphological expansion transformations automatically",
+    "B": "Gradient magnitude highlights intensity changes useful for edge detection and recognition tasks",
+    "C": "Gradient magnitude estimates object motion using recursive temporal brightness constraints automatically",
+    "D": "Gradient magnitude computes image frequencies using transform-domain cosine decomposition methods efficiently",
+    "answer": "B"
+  },
+  {
+    "id": 47,
+    "question": "I do not understand scale invariance",
+    "A": "Scale invariance describes detecting the same object despite changes in its size",
+    "B": "Scale invariance estimates image frequencies using weighted cosine decomposition procedures efficiently repeatedly",
+    "C": "Scale invariance enlarges image structures through recursive morphological dilation transformations automatically",
+    "D": "Scale invariance computes object depth through stereo geometric correspondence optimization procedures",
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "question": "Explain Quantization",
+    "A": "Quantization estimates temporal object motion using recursive brightness consistency constraints automatically",
+    "B": "Quantization reduces numerical precision by mapping values into lower bit representations",
+    "C": "Quantization enlarges image structures through recursive morphological expansion procedures automatically",
+    "D": "Quantization computes geometric depth using stereo image correspondence optimization procedures accurately",
+    "answer": "B"
+  },
+  {
+    "id": 49,
+    "question": "What is Outliers?",
+    "A": "Outliers are unusual data points that deviate significantly from other observations within datasets",
+    "B": "Outliers estimate object motion using recursive temporal intensity consistency constraints automatically",
+    "C": "Outliers enlarge image structures through adaptive morphological dilation operations repeatedly automatically",
+    "D": "Outliers compute image frequencies using weighted cosine decomposition methods efficiently repeatedly",
+    "answer": "A"
+  },
+  {
+    "id": 50,
+    "question": "How does HOG work?",
+    "A": "HOG enlarges image structures through recursive morphological dilation transformations automatically repeatedly",
+    "B": "HOG estimates geometric depth using stereo image correspondence optimization procedures accurately repeatedly",
+    "C": "HOG describes image textures using histograms of oriented image gradient distributions locally",
+    "D": "HOG computes image frequencies through weighted cosine decomposition methods efficiently repeatedly automatically",
+    "answer": "C"
+  }
+]
