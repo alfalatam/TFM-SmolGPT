@@ -33,3 +33,5 @@ tests/test antiguos/test20.json
 tests/test antiguos/test200.json
 out/ultimos modelos/ckpt_best_run.pt
 out/ultimos modelos/ckpt_best_run_mix.pt
+data/Nueva carpeta/tok4096.model
+data/Nueva carpeta/tok4096.vocab
