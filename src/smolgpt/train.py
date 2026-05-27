@@ -27,6 +27,11 @@ tokenizer = Tokenizer(str(ROOT_DIR / "data" / f"tok{GPTConfig.vocab_size}.model"
 
 # Preguntas fijas para evaluar generación real, así no me hace falta cargar el modelo y puedo ir viendo con la generacion como van saliendo, aunque es un % muy pequeño ayuda
 QUESTIONS_FOR_TESTING =[  
+    "How does CMYK work?",
+    "RGB",
+    "I don't understand RGB"
+    "What is SIFT?",
+    "Can you explain how SURF work?",
     "In computer vision, what is the RGB (Red, Green, Blue) color space?",
     "what is the main idea behind Otsu’s thresholding method?",
     "What advantages do 3×3 matrices provide?",
