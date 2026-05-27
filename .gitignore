@@ -31,3 +31,5 @@ tests/test antiguos/test100.json
 tests/test antiguos/test100_updated.json
 tests/test antiguos/test20.json
 tests/test antiguos/test200.json
+out/ultimos modelos/ckpt_best_run.pt
+out/ultimos modelos/ckpt_best_run_mix.pt
