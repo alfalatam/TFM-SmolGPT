@@ -129,7 +129,7 @@ def main():
 
     x = torch.tensor(
         #encode(args.prompt), dtype=torch.long, device=args.device
-        encode(args.prompt + "\n") dtype=torch.long, device=device
+        encode(args.prompt + "\n"), dtype=torch.long, device=device
     ).unsqueeze(0)
 
     with torch.no_grad():
